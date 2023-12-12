@@ -1,0 +1,44 @@
+name: frr01
+
+topology:
+  nodes:
+    PC1:
+      kind: linux
+      image: praqma/network-multitool:latest
+    PC2:
+      kind: linux
+      image: praqma/network-multitool:latest
+    PC3:
+      kind: linux
+      image: praqma/network-multitool:latest
+    PC4:
+      kind: linux
+      image: praqma/network-multitool:latest
+    PC5:
+      kind: linux
+      image: praqma/network-multitool:latest
+    PC6:
+      kind: linux
+      image: praqma/network-multitool:latest
+    router1:
+      kind: linux
+      image: docker-sonic-vpp:latest
+      binds:
+        - router1/daemons:/etc/frr/daemons
+          #        - router1/frr.conf:/etc/frr/frr.conf
+      env:
+        DPDK_DISABLE: "y" 
+        VPP_DPDK_PORTS: "eth1,eth2,eth3,eth4,eth5,eth6" 
+        SONIC_NUM_PORTS: 6
+        VPP_CONF_DB: "n"
+        NO_LINUX_NL: "y"
+      entrypoint: /bin/sh -c "swssloglevel -l DEBUG -a; swssloglevel -l SAI_LOG_LEVEL_DEBUG -s -a ; sleep 10 ; /usr/local/bin/start_sonic.sh"
+
+  links:
+    - endpoints: ["PC1:eth1", "router1:eth1"]
+    - endpoints: ["PC2:eth1", "router1:eth2"]
+    - endpoints: ["PC3:eth1", "router1:eth3"]
+    - endpoints: ["PC4:eth1", "router1:eth4"]
+    - endpoints: ["PC5:eth1", "router1:eth5"]
+    - endpoints: ["PC6:eth1", "router1:eth6"]
+ 

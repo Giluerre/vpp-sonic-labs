@@ -1,0 +1,229 @@
+{
+  "name": "frr01",
+  "type": "clab",
+  "clab": {
+    "config": {
+      "prefix": "clab",
+      "mgmt": {
+        "network": "clab",
+        "bridge": "br-05b9da495265",
+        "ipv4-subnet": "172.20.20.0/24",
+        "ipv4-gw": "172.20.20.1",
+        "ipv6-subnet": "2001:172:20:20::/64",
+        "ipv6-gw": "2001:172:20:20::1",
+        "mtu": 1500,
+        "external-access": true
+      }
+    }
+  },
+  "nodes": {
+    "PC1": {
+      "index": "0",
+      "shortname": "PC1",
+      "longname": "clab-frr01-PC1",
+      "fqdn": "PC1.frr01.io",
+      "group": "",
+      "labdir": "/home/nawee/labs/basic_bgp/clab-frr01/PC1",
+      "kind": "linux",
+      "image": "praqma/network-multitool:latest",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.5",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "2001:172:20:20::5",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-05b9da495265",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/nawee/labs/basic_bgp/clab-frr01/PC1",
+        "clab-node-name": "PC1",
+        "clab-node-type": "",
+        "clab-topo-file": "/home/nawee/labs/basic_bgp/frr01.clab.yml",
+        "containerlab": "frr01"
+      },
+      "port-bindings": [
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 11443,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 1180,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 443,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 80,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    "PC2": {
+      "index": "1",
+      "shortname": "PC2",
+      "longname": "clab-frr01-PC2",
+      "fqdn": "PC2.frr01.io",
+      "group": "",
+      "labdir": "/home/nawee/labs/basic_bgp/clab-frr01/PC2",
+      "kind": "linux",
+      "image": "praqma/network-multitool:latest",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.2",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "2001:172:20:20::2",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-05b9da495265",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/nawee/labs/basic_bgp/clab-frr01/PC2",
+        "clab-node-name": "PC2",
+        "clab-node-type": "",
+        "clab-topo-file": "/home/nawee/labs/basic_bgp/frr01.clab.yml",
+        "containerlab": "frr01"
+      },
+      "port-bindings": [
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 11443,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 1180,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 443,
+          "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 80,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    "router1": {
+      "index": "2",
+      "shortname": "router1",
+      "longname": "clab-frr01-router1",
+      "fqdn": "router1.frr01.io",
+      "group": "",
+      "labdir": "/home/nawee/labs/basic_bgp/clab-frr01/router1",
+      "kind": "linux",
+      "image": "frrouting/frr:v7.5.1",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.3",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "2001:172:20:20::3",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-05b9da495265",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/nawee/labs/basic_bgp/clab-frr01/router1",
+        "clab-node-name": "router1",
+        "clab-node-type": "",
+        "clab-topo-file": "/home/nawee/labs/basic_bgp/frr01.clab.yml",
+        "containerlab": "frr01"
+      },
+      "port-bindings": [
+      ]
+    },
+    "router2": {
+      "index": "3",
+      "shortname": "router2",
+      "longname": "clab-frr01-router2",
+      "fqdn": "router2.frr01.io",
+      "group": "",
+      "labdir": "/home/nawee/labs/basic_bgp/clab-frr01/router2",
+      "kind": "linux",
+      "image": "frrouting/frr:v7.5.1",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.4",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "2001:172:20:20::4",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-05b9da495265",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/nawee/labs/basic_bgp/clab-frr01/router2",
+        "clab-node-name": "router2",
+        "clab-node-type": "",
+        "clab-topo-file": "/home/nawee/labs/basic_bgp/frr01.clab.yml",
+        "containerlab": "frr01"
+      },
+      "port-bindings": [
+      ]
+    }
+  },
+  "links": [
+    {
+      "a": {
+        "node": "router1",
+        "interface": "eth2",
+        "mac": "aa:c1:ab:77:ba:ea",
+        "peer": "z"
+      },
+      "z": {
+        "node": "router2",
+        "interface": "eth2",
+        "mac": "aa:c1:ab:6f:70:cb",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "PC1",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:8f:a3:b1",
+        "peer": "z"
+      },
+      "z": {
+        "node": "router1",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:ea:5c:ad",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "PC2",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:34:e4:dd",
+        "peer": "z"
+      },
+      "z": {
+        "node": "router2",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:64:d1:ac",
+        "peer": "a"
+      }
+    }
+  ]
+}
