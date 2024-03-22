@@ -16,6 +16,7 @@ topology:
         NO_LINUX_NL: "y"
       ports:
           - 6379:6379
+          - 8081:8081
     router2:
       kind: linux
       image: docker-sonic-vpp:latest 
@@ -28,6 +29,8 @@ topology:
         SONIC_NUM_PORTS: 2
         VPP_CONF_DB: "n"
         NO_LINUX_NL: "y"
+      ports:
+          - 8082:8081
 
     PC1:
       kind: linux
