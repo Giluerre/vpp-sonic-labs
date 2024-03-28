@@ -14,15 +14,13 @@ sudo docker exec -d clab-frr01-router1 config interface ip add Ethernet0 10.0.1.
 sudo docker exec -d clab-frr01-router1 config interface startup Ethernet0
 sudo docker exec -d clab-frr01-router1 config interface startup Ethernet1
 sudo docker exec -d clab-frr01-router1 config interface ip add Loopback0 10.10.10.1/32
-sudo docker exec -d clab-frr01-router1 config interface ip add Loopback1 10.10.11.1/32
 sudo docker exec -d clab-frr01-router1 config interface startup Loopback0
-sudo docker exec -d clab-frr01-router1 config interface startup Loopback1
-sudo docker exec -d clab-frr01-router1 config interface vlan add 100
 
 sudo docker exec -d clab-frr01-router2 config interface ip add Ethernet0 10.0.1.0/31
 sudo docker exec -d clab-frr01-router2 config interface startup Ethernet0
 sudo docker exec -d clab-frr01-router2 config interface startup Ethernet1
 sudo docker exec -d clab-frr01-router2 config interface ip add Loopback0 10.10.10.101/32
+sudo docker exec -d clab-frr01-router2 config interface startup Loopback0
 
 #sudo docker exec -d clab-frr01-router1 ip route delete default 
 #sudo docker exec -d clab-frr01-router2 ip route delete default

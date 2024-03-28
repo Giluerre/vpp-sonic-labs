@@ -6,7 +6,7 @@
       "prefix": "clab",
       "mgmt": {
         "network": "clab",
-        "bridge": "br-07259d3ddd0a",
+        "bridge": "br-4819eb9b70ad",
         "ipv4-subnet": "172.20.20.0/24",
         "ipv4-gw": "172.20.20.1",
         "ipv6-subnet": "2001:172:20:20::/64",
@@ -23,7 +23,7 @@
       "longname": "clab-frr01-PC1",
       "fqdn": "PC1.frr01.io",
       "group": "",
-      "labdir": "/home/nawee/vpp-sonic-labs/vpp_vxlan_ebgp/clab-frr01/PC1",
+      "labdir": "/home/nawee/vpp-sonic-labs/vpp_bgp_ecmp/clab-frr01/PC1",
       "kind": "linux",
       "image": "praqma/network-multitool:latest",
       "mgmt-net": "",
@@ -34,13 +34,13 @@
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-07259d3ddd0a",
+        "clab-mgmt-net-bridge": "br-4819eb9b70ad",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/nawee/vpp-sonic-labs/vpp_vxlan_ebgp/clab-frr01/PC1",
+        "clab-node-lab-dir": "/home/nawee/vpp-sonic-labs/vpp_bgp_ecmp/clab-frr01/PC1",
         "clab-node-name": "PC1",
         "clab-node-type": "",
-        "clab-topo-file": "/home/nawee/vpp-sonic-labs/vpp_vxlan_ebgp/frr01.clab.yml",
+        "clab-topo-file": "/home/nawee/vpp-sonic-labs/vpp_bgp_ecmp/frr01.clab.yml",
         "containerlab": "frr01"
       },
       "port-bindings": [
@@ -76,33 +76,27 @@
       "longname": "clab-frr01-PC2",
       "fqdn": "PC2.frr01.io",
       "group": "",
-      "labdir": "/home/nawee/vpp-sonic-labs/vpp_vxlan_ebgp/clab-frr01/PC2",
+      "labdir": "/home/nawee/vpp-sonic-labs/vpp_bgp_ecmp/clab-frr01/PC2",
       "kind": "linux",
       "image": "praqma/network-multitool:latest",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.5",
+      "mgmt-ipv4-address": "172.20.20.3",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "2001:172:20:20::5",
+      "mgmt-ipv6-address": "2001:172:20:20::3",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-07259d3ddd0a",
+        "clab-mgmt-net-bridge": "br-4819eb9b70ad",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/nawee/vpp-sonic-labs/vpp_vxlan_ebgp/clab-frr01/PC2",
+        "clab-node-lab-dir": "/home/nawee/vpp-sonic-labs/vpp_bgp_ecmp/clab-frr01/PC2",
         "clab-node-name": "PC2",
         "clab-node-type": "",
-        "clab-topo-file": "/home/nawee/vpp-sonic-labs/vpp_vxlan_ebgp/frr01.clab.yml",
+        "clab-topo-file": "/home/nawee/vpp-sonic-labs/vpp_bgp_ecmp/frr01.clab.yml",
         "containerlab": "frr01"
       },
       "port-bindings": [
-        {
-          "host-ip": "",
-          "host-port": 0,
-          "port": 11443,
-          "protocol": "tcp"
-        },
         {
           "host-ip": "",
           "host-port": 0,
@@ -120,6 +114,12 @@
           "host-port": 0,
           "port": 80,
           "protocol": "tcp"
+        },
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 11443,
+          "protocol": "tcp"
         }
       ]
     },
@@ -129,7 +129,7 @@
       "longname": "clab-frr01-router1",
       "fqdn": "router1.frr01.io",
       "group": "",
-      "labdir": "/home/nawee/vpp-sonic-labs/vpp_vxlan_ebgp/clab-frr01/router1",
+      "labdir": "/home/nawee/vpp-sonic-labs/vpp_bgp_ecmp/clab-frr01/router1",
       "kind": "linux",
       "image": "docker-sonic-vpp:latest",
       "mgmt-net": "",
@@ -140,13 +140,13 @@
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-07259d3ddd0a",
+        "clab-mgmt-net-bridge": "br-4819eb9b70ad",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/nawee/vpp-sonic-labs/vpp_vxlan_ebgp/clab-frr01/router1",
+        "clab-node-lab-dir": "/home/nawee/vpp-sonic-labs/vpp_bgp_ecmp/clab-frr01/router1",
         "clab-node-name": "router1",
         "clab-node-type": "",
-        "clab-topo-file": "/home/nawee/vpp-sonic-labs/vpp_vxlan_ebgp/frr01.clab.yml",
+        "clab-topo-file": "/home/nawee/vpp-sonic-labs/vpp_bgp_ecmp/frr01.clab.yml",
         "containerlab": "frr01"
       },
       "port-bindings": [
@@ -182,24 +182,24 @@
       "longname": "clab-frr01-router2",
       "fqdn": "router2.frr01.io",
       "group": "",
-      "labdir": "/home/nawee/vpp-sonic-labs/vpp_vxlan_ebgp/clab-frr01/router2",
+      "labdir": "/home/nawee/vpp-sonic-labs/vpp_bgp_ecmp/clab-frr01/router2",
       "kind": "linux",
       "image": "docker-sonic-vpp:latest",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.3",
+      "mgmt-ipv4-address": "172.20.20.7",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "2001:172:20:20::3",
+      "mgmt-ipv6-address": "2001:172:20:20::7",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-07259d3ddd0a",
+        "clab-mgmt-net-bridge": "br-4819eb9b70ad",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/nawee/vpp-sonic-labs/vpp_vxlan_ebgp/clab-frr01/router2",
+        "clab-node-lab-dir": "/home/nawee/vpp-sonic-labs/vpp_bgp_ecmp/clab-frr01/router2",
         "clab-node-name": "router2",
         "clab-node-type": "",
-        "clab-topo-file": "/home/nawee/vpp-sonic-labs/vpp_vxlan_ebgp/frr01.clab.yml",
+        "clab-topo-file": "/home/nawee/vpp-sonic-labs/vpp_bgp_ecmp/frr01.clab.yml",
         "containerlab": "frr01"
       },
       "port-bindings": [
@@ -216,6 +216,64 @@
           "protocol": "tcp"
         }
       ]
+    },
+    "router3": {
+      "index": "4",
+      "shortname": "router3",
+      "longname": "clab-frr01-router3",
+      "fqdn": "router3.frr01.io",
+      "group": "",
+      "labdir": "/home/nawee/vpp-sonic-labs/vpp_bgp_ecmp/clab-frr01/router3",
+      "kind": "linux",
+      "image": "docker-sonic-vpp:latest",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.6",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "2001:172:20:20::6",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-4819eb9b70ad",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/nawee/vpp-sonic-labs/vpp_bgp_ecmp/clab-frr01/router3",
+        "clab-node-name": "router3",
+        "clab-node-type": "",
+        "clab-topo-file": "/home/nawee/vpp-sonic-labs/vpp_bgp_ecmp/frr01.clab.yml",
+        "containerlab": "frr01"
+      },
+      "port-bindings": [
+      ]
+    },
+    "router4": {
+      "index": "5",
+      "shortname": "router4",
+      "longname": "clab-frr01-router4",
+      "fqdn": "router4.frr01.io",
+      "group": "",
+      "labdir": "/home/nawee/vpp-sonic-labs/vpp_bgp_ecmp/clab-frr01/router4",
+      "kind": "linux",
+      "image": "docker-sonic-vpp:latest",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.5",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "2001:172:20:20::5",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-4819eb9b70ad",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/nawee/vpp-sonic-labs/vpp_bgp_ecmp/clab-frr01/router4",
+        "clab-node-name": "router4",
+        "clab-node-type": "",
+        "clab-topo-file": "/home/nawee/vpp-sonic-labs/vpp_bgp_ecmp/frr01.clab.yml",
+        "containerlab": "frr01"
+      },
+      "port-bindings": [
+      ]
     }
   },
   "links": [
@@ -223,41 +281,83 @@
       "a": {
         "node": "router1",
         "interface": "eth1",
-        "mac": "aa:c1:ab:af:e8:b7",
+        "mac": "aa:c1:ab:a7:c9:98",
         "peer": "z"
       },
       "z": {
         "node": "router2",
         "interface": "eth1",
-        "mac": "aa:c1:ab:22:1a:a8",
+        "mac": "aa:c1:ab:9a:57:ad",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "router1",
+        "interface": "eth2",
+        "mac": "aa:c1:ab:79:90:c6",
+        "peer": "z"
+      },
+      "z": {
+        "node": "router3",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:e1:e2:7e",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "router2",
+        "interface": "eth2",
+        "mac": "aa:c1:ab:a4:c2:bd",
+        "peer": "z"
+      },
+      "z": {
+        "node": "router4",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:ed:fe:74",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "router3",
+        "interface": "eth2",
+        "mac": "aa:c1:ab:00:5e:9b",
+        "peer": "z"
+      },
+      "z": {
+        "node": "router4",
+        "interface": "eth2",
+        "mac": "aa:c1:ab:1a:e1:ca",
         "peer": "a"
       }
     },
     {
       "a": {
         "node": "PC1",
-        "interface": "eth2",
-        "mac": "aa:c1:ab:09:cb:e5",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:87:3d:b2",
         "peer": "z"
       },
       "z": {
         "node": "router1",
-        "interface": "eth2",
-        "mac": "aa:c1:ab:47:6a:06",
+        "interface": "eth3",
+        "mac": "aa:c1:ab:7b:db:7c",
         "peer": "a"
       }
     },
     {
       "a": {
         "node": "PC2",
-        "interface": "eth2",
-        "mac": "aa:c1:ab:90:e2:4f",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:c8:11:dc",
         "peer": "z"
       },
       "z": {
-        "node": "router2",
-        "interface": "eth2",
-        "mac": "aa:c1:ab:7f:47:15",
+        "node": "router4",
+        "interface": "eth3",
+        "mac": "aa:c1:ab:fe:ba:ae",
         "peer": "a"
       }
     }

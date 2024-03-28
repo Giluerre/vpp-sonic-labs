@@ -1,0 +1,1333 @@
+Mar 27 23:04:58.341838 router4 INFO #rsyslogd: [origin software="rsyslogd" swVersion="8.2302.0" x-pid="101" x-info="https://www.rsyslog.com"] start
+Mar 27 23:04:58.342025 router4 ERR #rsyslogd: Could not open output pipe '/dev/xconsole':: No such file or directory [v8.2302.0 try https://www.rsyslog.com/e/2039 ]
+Mar 27 23:04:58.342032 router4 WARNING #rsyslogd: action 'action-10-builtin:ompipe' suspended (module 'builtin:ompipe'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2302.0 try https://www.rsyslog.com/e/2007 ]
+Mar 27 23:04:58.342131 router4 INFO #supervisord: rsyslogd rsyslogd: Could not open output pipe '/dev/xconsole':: No such file or directory [v8.2302.0 try https://www.rsyslog.com/e/2039 ]
+Mar 27 23:04:58.342155 router4 WARNING #rsyslogd: action 'action-10-builtin:ompipe' suspended (module 'builtin:ompipe'), next retry is Wed Mar 27 23:05:28 2024, retry nbr 0. There should be messages before this one giving the reason for suspension. [v8.2302.0 try https://www.rsyslog.com/e/2007 ]
+Mar 27 23:04:58.341845 router4 INFO #supervisord 2024-03-27 23:04:56,197 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+Mar 27 23:04:58.341903 router4 INFO #supervisord 2024-03-27 23:04:56,197 INFO Included extra file "/etc/supervisor/conf.d/vpp_init.conf" during parsing
+Mar 27 23:04:58.341961 router4 INFO #supervisord 2024-03-27 23:04:56,197 INFO Set uid to user 0 succeeded
+Mar 27 23:04:58.342074 router4 INFO #supervisord 2024-03-27 23:04:56,210 INFO RPC interface 'supervisor' initialized
+Mar 27 23:04:58.342140 router4 INFO #supervisord 2024-03-27 23:04:56,210 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+Mar 27 23:04:58.342210 router4 INFO #supervisord 2024-03-27 23:04:56,210 INFO supervisord started with pid 1
+Mar 27 23:04:58.342333 router4 INFO #supervisord 2024-03-27 23:04:57,213 INFO spawned: 'start.sh' with pid 56
+Mar 27 23:04:58.342390 router4 INFO #supervisord 2024-03-27 23:04:57,214 INFO spawned: 'vpp_init.sh' with pid 57
+Mar 27 23:04:58.342444 router4 INFO #supervisord 2024-03-27 23:04:58,298 INFO success: start.sh entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Mar 27 23:04:58.342498 router4 INFO #supervisord 2024-03-27 23:04:58,298 INFO success: vpp_init.sh entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Mar 27 23:04:58.342552 router4 INFO #supervisord 2024-03-27 23:04:58,337 INFO spawned: 'rsyslogd' with pid 101
+Mar 27 23:04:59.343497 router4 INFO #supervisord 2024-03-27 23:04:59,343 INFO success: rsyslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Mar 27 23:04:59.344279 router4 INFO #supervisord: start.sh rsyslogd: started
+Mar 27 23:04:59.464033 router4 INFO #supervisord 2024-03-27 23:04:59,463 INFO spawned: 'redis-server' with pid 106
+Mar 27 23:04:59.470599 router4 INFO #supervisord: redis-server 106:C 27 Mar 2024 23:04:59.470 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+Mar 27 23:04:59.470606 router4 INFO #supervisord: redis-server 106:C 27 Mar 2024 23:04:59.470 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=106, just started
+Mar 27 23:04:59.470608 router4 INFO #supervisord: redis-server 106:C 27 Mar 2024 23:04:59.470 # Configuration loaded
+Mar 27 23:04:59.471376 router4 INFO #supervisord: redis-server                 _._                                                  
+Mar 27 23:04:59.471382 router4 INFO #supervisord: redis-server            _.-``__ ''-._                                             
+Mar 27 23:04:59.471384 router4 INFO #supervisord: redis-server       _.-``    `.  `_.  ''-._           Redis 6.0.16 (00000000/0) 64 bit
+Mar 27 23:04:59.471389 router4 INFO #supervisord: redis-server   .-`` .-```.  ```\/    _.,_ ''-._                                   
+Mar 27 23:04:59.471395 router4 INFO #supervisord: redis-server  (    '      ,       .-`  | `,    )     Running in standalone mode
+Mar 27 23:04:59.471400 router4 INFO #supervisord: redis-server  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+Mar 27 23:04:59.471404 router4 INFO #supervisord: redis-server  |    `-._   `._    /     _.-'    |     PID: 106
+Mar 27 23:04:59.471409 router4 INFO #supervisord: redis-server   `-._    `-._  `-./  _.-'    _.-'                                   
+Mar 27 23:04:59.471413 router4 INFO #supervisord: redis-server  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+Mar 27 23:04:59.471419 router4 INFO #supervisord: redis-server  |    `-._`-._        _.-'_.-'    |           http://redis.io        
+Mar 27 23:04:59.471425 router4 INFO #supervisord: redis-server   `-._    `-._`-.__.-'_.-'    _.-'                                   
+Mar 27 23:04:59.471433 router4 INFO #supervisord: redis-server  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+Mar 27 23:04:59.471438 router4 INFO #supervisord: redis-server  |    `-._`-._        _.-'_.-'    |                                  
+Mar 27 23:04:59.471444 router4 INFO #supervisord: redis-server   `-._    `-._`-.__.-'_.-'    _.-'                                   
+Mar 27 23:04:59.471449 router4 INFO #supervisord: redis-server       `-._    `-.__.-'    _.-'                                       
+Mar 27 23:04:59.471455 router4 INFO #supervisord: redis-server           `-._        _.-'                                           
+Mar 27 23:04:59.471461 router4 INFO #supervisord: redis-server               `-.__.-'                                               
+Mar 27 23:04:59.471466 router4 INFO #supervisord: redis-server 
+Mar 27 23:04:59.471472 router4 INFO #supervisord: redis-server 106:M 27 Mar 2024 23:04:59.471 # Server initialized
+Mar 27 23:04:59.471481 router4 INFO #supervisord: redis-server 106:M 27 Mar 2024 23:04:59.471 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+Mar 27 23:04:59.471692 router4 INFO #supervisord: redis-server 106:M 27 Mar 2024 23:04:59.471 * Ready to accept connections
+Mar 27 23:04:59.471699 router4 INFO #supervisord: redis-server 106:M 27 Mar 2024 23:04:59.471 * The server is now ready to accept connections at /var/run/redis/redis.sock
+Mar 27 23:05:00.472977 router4 INFO #supervisord 2024-03-27 23:05:00,472 INFO success: redis-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Mar 27 23:05:00.473730 router4 INFO #supervisord: start.sh redis-server: started
+Mar 27 23:05:00.733937 router4 INFO #update_chassisdb_config: remove chassis_db from config file /var/run/redis/sonic-db/database_config.json.tmp
+Mar 27 23:05:00.869282 router4 INFO #supervisord: start.sh True
+Mar 27 23:05:00.982707 router4 INFO #supervisord 2024-03-27 23:05:00,982 INFO spawned: 'vppcfgd' with pid 137
+Mar 27 23:05:00.982847 router4 INFO #supervisord 2024-03-27 23:05:00,982 INFO success: vppcfgd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+Mar 27 23:05:00.983599 router4 INFO #supervisord: start.sh vppcfgd: started
+Mar 27 23:05:01.084102 router4 INFO #supervisord: vppcfgd /usr/local/lib/python3.9/dist-packages/vppcfgd/utils.py:43: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+Mar 27 23:05:01.084107 router4 INFO #supervisord: vppcfgd   content = yaml.load(fp) # FIXME: , Loader=yaml.FullLoader)
+Mar 27 23:05:01.128454 router4 INFO #supervisord 2024-03-27 23:05:01,128 INFO spawned: 'syncd' with pid 139
+Mar 27 23:05:01.350447 router4 INFO #supervisord: syncd         version: 23.06-release
+Mar 27 23:05:01.357206 router4 DEBUG #syncd: :> syncd_main: enter
+Mar 27 23:05:01.357815 router4 NOTICE #syncd: :- initialize: initializeing metadata log function
+Mar 27 23:05:01.357824 router4 WARNING #syncd: :- parseCommandLine: param -s is depreacated, use -z
+Mar 27 23:05:01.357869 router4 NOTICE #syncd: :- Syncd: sairedis git revision edb2b17, SAI git revision: ef2e591
+Mar 27 23:05:01.357887 router4 NOTICE #syncd: :- threadFunction: starting timer watchdog thread
+Mar 27 23:05:01.364758 router4 NOTICE #syncd: :- Syncd: command line:  EnableDiagShell=NO EnableTempView=YES DisableExitSleep=NO EnableUnittests=NO EnableConsistencyCheck=NO EnableSyncMode=YES RedisCommunicationMode=redis_async EnableSaiBulkSuport=NO StartType=cold ProfileMapFile=/usr/share/sonic/hwsku/sai.profile GlobalContext=0 ContextConfig= BreakConfig= WatchdogWarnTimeSpan=30000000
+Mar 27 23:05:01.364763 router4 NOTICE #syncd: :- loadFromFile: no context config specified, will load default context config
+Mar 27 23:05:01.364768 router4 NOTICE #syncd: :- insert: added switch: idx 0, hwinfo ''
+Mar 27 23:05:01.364772 router4 WARNING #syncd: :- Syncd: enable sync mode is deprecated, please use communication mode, FORCING redis sync mode
+Mar 27 23:05:01.365351 router4 NOTICE #syncd: :- RedisSelectableChannel: opened redis channel
+Mar 27 23:05:01.365902 router4 NOTICE #syncd: :- isVeryFirstRun: First Run: True
+Mar 27 23:05:01.365908 router4 NOTICE #syncd: :- initialize: SAI API vendor version: 11303
+Mar 27 23:05:01.365910 router4 NOTICE #syncd: :- initialize: SAI API min version: 10900
+Mar 27 23:05:01.365913 router4 NOTICE #syncd: :- initialize: SAI API headers version: 11303
+Mar 27 23:05:01.365922 router4 NOTICE #syncd: :- profileGetValue: SAI_VPP_SWITCH_TYPE: SAI_VPP_SWITCH_TYPE_BCM56850
+Mar 27 23:05:01.365925 router4 NOTICE #syncd: :- profileGetValue: SAI_VPP_SAI_SWITCH_TYPE: NULL
+Mar 27 23:05:01.365931 router4 NOTICE #syncd: :- initialize: failed to obtain service method table value: SAI_VPP_SAI_SWITCH_TYPE
+Mar 27 23:05:01.365935 router4 NOTICE #syncd: :- profileGetValue: SAI_VPP_INTERFACE_LANE_MAP_FILE: /usr/share/sonic/hwsku/lanemap.ini
+Mar 27 23:05:01.365957 router4 NOTICE #syncd: :- parseLaneMapFile: loading lane map from: /usr/share/sonic/hwsku/lanemap.ini
+Mar 27 23:05:01.366000 router4 NOTICE #syncd: :- parseLaneMapFile: loaded 1 lane maps to container
+Mar 27 23:05:01.366007 router4 NOTICE #syncd: :- profileGetValue: SAI_VPP_INTERFACE_FABRIC_LANE_MAP_FILE: /usr/share/sonic/hwsku/fabriclanemap.ini
+Mar 27 23:05:01.366027 router4 NOTICE #syncd: :- parseLaneMapFile: loading lane map from: /usr/share/sonic/hwsku/fabriclanemap.ini
+Mar 27 23:05:01.366075 router4 NOTICE #syncd: :- parseLaneMapFile: loaded 1 lane maps to container
+Mar 27 23:05:01.366082 router4 NOTICE #syncd: :- profileGetValue: SAI_VPP_CORE_PORT_INDEX_MAP_FILE: /usr/share/sonic/hwsku/coreportindexmap.ini
+Mar 27 23:05:01.366097 router4 WARNING #syncd: :- parseCorePortIndexMapFile: failed to open core port index map file: /usr/share/sonic/hwsku/coreportindexmap.ini, using default
+Mar 27 23:05:01.366129 router4 NOTICE #syncd: :- profileGetValue: SAI_VPP_RESOURCE_LIMITER_FILE: NULL
+Mar 27 23:05:01.366133 router4 NOTICE #syncd: :- parseFromFile: file name is NULL, returning empty limiter
+Mar 27 23:05:01.366137 router4 NOTICE #syncd: :- profileGetValue: SAI_BOOT_TYPE: 0
+Mar 27 23:05:01.366140 router4 NOTICE #syncd: :- profileGetValue: SAI_WARM_BOOT_READ_FILE: /var/warmboot/sai-warmboot.bin
+Mar 27 23:05:01.366143 router4 NOTICE #syncd: :- profileGetValue: SAI_WARM_BOOT_WRITE_FILE: /var/warmboot/sai-warmboot.bin
+Mar 27 23:05:01.366147 router4 NOTICE #syncd: :- profileGetValue: SAI_VPP_HOSTIF_USE_TAP_DEVICE: true
+Mar 27 23:05:01.366150 router4 NOTICE #syncd: :- initialize: hostif use TAP device: true
+Mar 27 23:05:01.366153 router4 NOTICE #syncd: :- profileGetValue: SAI_VPP_GLOBAL_CONTEXT: NULL
+Mar 27 23:05:01.366156 router4 NOTICE #syncd: :- initialize: using globalContext = 0
+Mar 27 23:05:01.366158 router4 NOTICE #syncd: :- profileGetValue: SAI_VPP_CONTEXT_CONFIG: NULL
+Mar 27 23:05:01.366165 router4 NOTICE #syncd: :- loadFromFile: no context config specified, will load default context config
+Mar 27 23:05:01.366170 router4 NOTICE #syncd: :- insert: added switch: idx 0, hwinfo ''
+Mar 27 23:05:01.366379 router4 NOTICE #syncd: :- unittestChannelThreadProc: enter VS unittest channel thread
+Mar 27 23:05:01.366401 router4 NOTICE #syncd: :- Syncd: syncd started
+Mar 27 23:05:01.366408 router4 NOTICE #syncd: :- fdbAgingThreadProc: begin
+Mar 27 23:05:01.366481 router4 NOTICE #syncd: :- onSyncdStart: performing hard reinit since COLD start was performed
+Mar 27 23:05:01.366534 router4 NOTICE #syncd: :- readAsicState: loaded 0 switches
+Mar 27 23:05:01.366540 router4 NOTICE #syncd: :- readAsicState: read asic state took 0.000053 sec
+Mar 27 23:05:01.366571 router4 NOTICE #syncd: :- onSyncdStart: hard reinit succeeded
+Mar 27 23:05:01.366575 router4 NOTICE #syncd: :- onSyncdStart: on syncd start took 0.000094 sec
+Mar 27 23:05:01.366598 router4 NOTICE #syncd: :- run: syncd listening for events
+Mar 27 23:05:01.366607 router4 NOTICE #syncd: :- run: starting main loop
+Mar 27 23:05:02.351022 router4 INFO #supervisord 2024-03-27 23:05:02,350 INFO success: syncd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Mar 27 23:05:02.351805 router4 INFO #supervisord: start.sh syncd: started
+Mar 27 23:05:02.454705 router4 INFO #supervisord 2024-03-27 23:05:02,454 INFO spawned: 'portsyncd' with pid 159
+Mar 27 23:05:02.460203 router4 NOTICE #portsyncd: :- handlePortConfigFromConfigDB: Getting port configuration from ConfigDB...
+Mar 27 23:05:02.460276 router4 INFO #supervisord: portsyncd Listen to link messages...
+Mar 27 23:05:02.463604 router4 NOTICE #portsyncd: :- onMsg: nlmsg type:16 key:eth0 admin:1 oper:1 addr:02:42:ac:14:14:05 ifindex:309 master:0 type:veth
+Mar 27 23:05:02.463634 router4 NOTICE #portsyncd: :- onMsg: nlmsg type:16 key:eth1 admin:1 oper:1 addr:aa:c1:ab:dc:42:e5 ifindex:319 master:0 type:veth
+Mar 27 23:05:02.463655 router4 NOTICE #portsyncd: :- onMsg: nlmsg type:16 key:eth3 admin:1 oper:1 addr:aa:c1:ab:4a:88:1b ifindex:321 master:0 type:veth
+Mar 27 23:05:02.463673 router4 NOTICE #portsyncd: :- onMsg: nlmsg type:16 key:eth2 admin:1 oper:1 addr:aa:c1:ab:b0:40:2a ifindex:325 master:0 type:veth
+Mar 27 23:05:03.460996 router4 INFO #supervisord 2024-03-27 23:05:03,460 INFO success: portsyncd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Mar 27 23:05:03.461698 router4 INFO #supervisord: start.sh portsyncd: started
+Mar 27 23:05:03.565580 router4 INFO #supervisord 2024-03-27 23:05:03,565 INFO spawned: 'orchagent' with pid 170
+Mar 27 23:05:03.773210 router4 NOTICE #orchagent: :- main: Enabling synchronous mode
+Mar 27 23:05:03.773215 router4 NOTICE #orchagent: :- main: --- Starting Orchestration Agent ---
+Mar 27 23:05:03.773270 router4 NOTICE #orchagent: :- initialize: acting as a sairedis SERVER
+Mar 27 23:05:03.773284 router4 NOTICE #orchagent: :- loadFromFile: no context config specified, will load default context config
+Mar 27 23:05:03.773290 router4 NOTICE #orchagent: :- insert: added switch: idx 0, hwinfo ''
+Mar 27 23:05:03.773295 router4 NOTICE #orchagent: :- RedisRemoteSaiInterface: sairedis git revision edb2b17, SAI git revision: ef2e591
+Mar 27 23:05:03.773751 router4 NOTICE #orchagent: :- RedisChannel: creating notification thread
+Mar 27 23:05:03.773839 router4 NOTICE #orchagent: :- clear_local_state: clearing local state
+Mar 27 23:05:03.773855 router4 NOTICE #orchagent: :- initialize: init client/server sai: SAI_STATUS_SUCCESS
+Mar 27 23:05:03.773858 router4 NOTICE #orchagent: :- loadFromFile: no server config specified, will load default
+Mar 27 23:05:03.773864 router4 NOTICE #orchagent: :- ZeroMQSelectableChannel: binding on ipc:///tmp/saiServer
+Mar 27 23:05:03.775848 router4 NOTICE #orchagent: :- initialize: starting server thread
+Mar 27 23:05:03.775867 router4 NOTICE #orchagent: :- zmqPollThread: begin
+Mar 27 23:05:03.775877 router4 NOTICE #orchagent: :- initialize: init client/server sai: SAI_STATUS_SUCCESS
+Mar 27 23:05:03.775937 router4 NOTICE #orchagent: :- setRecordingFilename: setting recording filename : sairedis.rec
+Mar 27 23:05:03.775940 router4 NOTICE #orchagent: :- stopRecording: stopped recording
+Mar 27 23:05:03.775946 router4 NOTICE #orchagent: :- stopRecording: closed recording file: sairedis.rec
+Mar 27 23:05:03.775982 router4 NOTICE #orchagent: :- startRecording: started recording: sairedis.rec
+Mar 27 23:05:03.775986 router4 NOTICE #orchagent: :- initSaiRedis: Enable redis pipeline
+Mar 27 23:05:03.775990 router4 NOTICE #orchagent: :- notifySyncd: sending syncd: INIT_VIEW
+Mar 27 23:05:03.776047 router4 NOTICE #orchagent: :- serverThreadFunction: begin
+Mar 27 23:05:03.776221 router4 NOTICE #syncd: :- processNotifySyncd: very first run is TRUE, op = INIT_VIEW
+Mar 27 23:05:03.776225 router4 NOTICE #syncd: :- clearTempView: clearing current TEMP VIEW
+Mar 27 23:05:03.776282 router4 NOTICE #syncd: :- clearTempView: clear temp view took 0.000047 sec
+Mar 27 23:05:03.776420 router4 NOTICE #orchagent: :- sai_redis_notify_syncd: switched ASIC to INIT VIEW
+Mar 27 23:05:03.776423 router4 NOTICE #orchagent: :- sai_redis_notify_syncd: clearing current local state since init view is called on initialized switch
+Mar 27 23:05:03.776425 router4 NOTICE #orchagent: :- clear_local_state: clearing local state
+Mar 27 23:05:03.776429 router4 NOTICE #orchagent: :- meta_init_db: begin
+Mar 27 23:05:03.776432 router4 NOTICE #orchagent: :- meta_init_db: end
+Mar 27 23:05:03.776435 router4 NOTICE #orchagent: :- initSaiRedis: Notify syncd INIT_VIEW
+Mar 27 23:05:03.776498 router4 NOTICE #orchagent: :- startRec: SwSS Recorder: Recording started at /var/log/swss/swss.rec
+Mar 27 23:05:03.776629 router4 NOTICE #orchagent: :- main: ZMQ disabled
+Mar 27 23:05:03.776719 router4 WARNING #orchagent: :- main: sync mode is depreacated, use -z param
+Mar 27 23:05:03.776722 router4 NOTICE #orchagent: :- set: unlocking api mutex for communication mode
+Mar 27 23:05:03.776727 router4 NOTICE #orchagent: :- ~RedisChannel: join ntf thread begin
+Mar 27 23:05:03.776756 router4 NOTICE #orchagent: :- ~RedisChannel: join ntf thread end
+Mar 27 23:05:03.776778 router4 NOTICE #orchagent: :- setRedisExtensionAttribute: enabling redis sync mode
+Mar 27 23:05:03.777161 router4 NOTICE #orchagent: :- RedisChannel: creating notification thread
+Mar 27 23:05:03.777185 router4 NOTICE #orchagent: :- create: request switch create with context 0
+Mar 27 23:05:03.777214 router4 NOTICE #orchagent: :- allocateNewSwitchObjectId: created SWITCH VID oid:0x21000000000000 for hwinfo: ''
+Mar 27 23:05:03.777399 router4 NOTICE #syncd: :- processOidCreate: creating switch number 1
+Mar 27 23:05:03.777426 router4 NOTICE #syncd: :- allocateNewSwitchObjectId: created SWITCH RID oid:0x2100000000 for hwinfo: ''
+Mar 27 23:05:03.777519 router4 NOTICE #syncd: :- run: netlink msg listener started
+Mar 27 23:05:03.777806 router4 NOTICE #syncd: :- asyncOnLinkMsg: received RTM_NEWLINK ifname: lo, ifflags: 0x10049, ifindex: 1
+Mar 27 23:05:03.777850 router4 NOTICE #syncd: :- asyncOnLinkMsg: received RTM_NEWLINK ifname: eth0, ifflags: 0x11043, ifindex: 309
+Mar 27 23:05:03.777867 router4 NOTICE #syncd: :- asyncOnLinkMsg: received RTM_NEWLINK ifname: eth1, ifflags: 0x11043, ifindex: 319
+Mar 27 23:05:03.777878 router4 NOTICE #syncd: :- asyncOnLinkMsg: received RTM_NEWLINK ifname: eth3, ifflags: 0x11043, ifindex: 321
+Mar 27 23:05:03.777890 router4 NOTICE #syncd: :- asyncOnLinkMsg: received RTM_NEWLINK ifname: eth2, ifflags: 0x11043, ifindex: 325
+Mar 27 23:05:03.789581 router4 INFO #supervisord: syncd Interface                sw_if_index    
+Mar 27 23:05:03.789587 router4 INFO #supervisord: syncd host-eth1                1              
+Mar 27 23:05:03.789589 router4 INFO #supervisord: syncd host-eth2                2              
+Mar 27 23:05:03.789591 router4 INFO #supervisord: syncd host-eth3                3              
+Mar 27 23:05:03.789593 router4 INFO #supervisord: syncd local0                   0              
+Mar 27 23:05:03.789779 router4 INFO #supervisord: syncd msg_handler_internal:588: no handler for msg id 133
+Mar 27 23:05:04.358124 router4 NOTICE #syncd: :- threadFunction: time span 580 ms for 'create:SAI_OBJECT_TYPE_SWITCH:oid:0x21000000000000'
+Mar 27 23:05:04.790139 router4 NOTICE #syncd: :- vpp_dp_initialize: VPP DP initialized
+Mar 27 23:05:04.790320 router4 ERR #syncd: :- vpp_get_hwif_name: host interface for port id oid:0x100000001 not found
+Mar 27 23:05:04.790330 router4 ERR #syncd: :- vpp_get_hwif_name: host interface for port id oid:0x100000001 not found
+Mar 27 23:05:04.790349 router4 ERR #syncd: :- vpp_get_hwif_name: host interface for port id oid:0x100000002 not found
+Mar 27 23:05:04.790353 router4 ERR #syncd: :- vpp_get_hwif_name: host interface for port id oid:0x100000002 not found
+Mar 27 23:05:04.790362 router4 ERR #syncd: :- vpp_get_hwif_name: host interface for port id oid:0x100000003 not found
+Mar 27 23:05:04.790365 router4 ERR #syncd: :- vpp_get_hwif_name: host interface for port id oid:0x100000003 not found
+Mar 27 23:05:04.790387 router4 NOTICE #syncd: :- set_port_capabilities: set port capabilities
+Mar 27 23:05:04.791086 router4 INFO #supervisord 2024-03-27 23:05:04,791 INFO success: orchagent entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Mar 27 23:05:04.791434 router4 NOTICE #syncd: :- init_switch: initialized switch oid:0x2100000000
+Mar 27 23:05:04.791442 router4 NOTICE #syncd: :- init_switch: init took 1.014008 sec
+Mar 27 23:05:04.791992 router4 INFO #supervisord: start.sh orchagent: started
+Mar 27 23:05:04.792208 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_SWITCH_HARDWARE_INFO not implemented on oid:0x2100000000
+Mar 27 23:05:04.792213 router4 WARNING #syncd: :- saiGetHardwareInfo: failed to get switch hardware info: SAI_STATUS_NOT_IMPLEMENTED
+Mar 27 23:05:04.792267 router4 NOTICE #syncd: :- refresh_port_list: refreshed port list, current port number: 3, not counting cpu port
+Mar 27 23:05:04.792327 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000000
+Mar 27 23:05:04.792333 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000000
+Mar 27 23:05:04.792339 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000000
+Mar 27 23:05:04.792344 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000000
+Mar 27 23:05:04.792349 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000000
+Mar 27 23:05:04.792362 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000001
+Mar 27 23:05:04.792368 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000001
+Mar 27 23:05:04.792373 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000001
+Mar 27 23:05:04.792382 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000001
+Mar 27 23:05:04.792388 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000001
+Mar 27 23:05:04.792397 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000002
+Mar 27 23:05:04.792402 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000002
+Mar 27 23:05:04.792407 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000002
+Mar 27 23:05:04.792413 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000002
+Mar 27 23:05:04.792418 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000002
+Mar 27 23:05:04.792427 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000003
+Mar 27 23:05:04.792432 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000003
+Mar 27 23:05:04.792437 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000003
+Mar 27 23:05:04.792443 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000003
+Mar 27 23:05:04.792448 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000003
+Mar 27 23:05:04.792457 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000004
+Mar 27 23:05:04.792463 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000004
+Mar 27 23:05:04.792468 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000004
+Mar 27 23:05:04.792473 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000004
+Mar 27 23:05:04.792478 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000004
+Mar 27 23:05:04.792488 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000005
+Mar 27 23:05:04.792493 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000005
+Mar 27 23:05:04.792498 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000005
+Mar 27 23:05:04.792503 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000005
+Mar 27 23:05:04.792508 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000005
+Mar 27 23:05:04.792517 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000006
+Mar 27 23:05:04.792522 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000006
+Mar 27 23:05:04.792527 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000006
+Mar 27 23:05:04.792532 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000006
+Mar 27 23:05:04.792538 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000006
+Mar 27 23:05:04.792549 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000007
+Mar 27 23:05:04.792556 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000007
+Mar 27 23:05:04.792561 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000007
+Mar 27 23:05:04.792566 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000007
+Mar 27 23:05:04.792572 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000007
+Mar 27 23:05:04.792582 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000008
+Mar 27 23:05:04.792588 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000008
+Mar 27 23:05:04.792593 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000008
+Mar 27 23:05:04.792599 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000008
+Mar 27 23:05:04.792604 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000008
+Mar 27 23:05:04.792613 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000009
+Mar 27 23:05:04.792619 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000009
+Mar 27 23:05:04.792624 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000009
+Mar 27 23:05:04.792629 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000009
+Mar 27 23:05:04.792634 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000009
+Mar 27 23:05:04.792645 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000000a
+Mar 27 23:05:04.792651 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000000a
+Mar 27 23:05:04.792656 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000000a
+Mar 27 23:05:04.792661 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000000a
+Mar 27 23:05:04.792666 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000000a
+Mar 27 23:05:04.792675 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000000b
+Mar 27 23:05:04.792680 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000000b
+Mar 27 23:05:04.792685 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000000b
+Mar 27 23:05:04.792691 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000000b
+Mar 27 23:05:04.792696 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000000b
+Mar 27 23:05:04.792707 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000000c
+Mar 27 23:05:04.792713 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000000c
+Mar 27 23:05:04.792718 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000000c
+Mar 27 23:05:04.792724 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000000c
+Mar 27 23:05:04.792729 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000000c
+Mar 27 23:05:04.792739 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000000d
+Mar 27 23:05:04.792744 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000000d
+Mar 27 23:05:04.792750 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000000d
+Mar 27 23:05:04.792754 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000000d
+Mar 27 23:05:04.792761 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000000d
+Mar 27 23:05:04.792771 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000000e
+Mar 27 23:05:04.792777 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000000e
+Mar 27 23:05:04.792783 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000000e
+Mar 27 23:05:04.792788 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000000e
+Mar 27 23:05:04.792793 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000000e
+Mar 27 23:05:04.792842 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000000f
+Mar 27 23:05:04.792866 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000000f
+Mar 27 23:05:04.792885 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000000f
+Mar 27 23:05:04.792901 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000000f
+Mar 27 23:05:04.792916 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000000f
+Mar 27 23:05:04.792937 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000010
+Mar 27 23:05:04.792951 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000010
+Mar 27 23:05:04.792965 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000010
+Mar 27 23:05:04.792978 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000010
+Mar 27 23:05:04.792992 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000010
+Mar 27 23:05:04.793003 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000011
+Mar 27 23:05:04.793008 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000011
+Mar 27 23:05:04.793014 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000011
+Mar 27 23:05:04.793019 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000011
+Mar 27 23:05:04.793025 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000011
+Mar 27 23:05:04.793035 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000012
+Mar 27 23:05:04.793040 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000012
+Mar 27 23:05:04.793045 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000012
+Mar 27 23:05:04.793050 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000012
+Mar 27 23:05:04.793055 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000012
+Mar 27 23:05:04.793064 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000013
+Mar 27 23:05:04.793068 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000013
+Mar 27 23:05:04.793074 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000013
+Mar 27 23:05:04.793079 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000013
+Mar 27 23:05:04.793084 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000013
+Mar 27 23:05:04.793144 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1700000003
+Mar 27 23:05:04.793165 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x1700000003
+Mar 27 23:05:04.793189 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1700000004
+Mar 27 23:05:04.793196 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x1700000004
+Mar 27 23:05:04.793209 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1700000005
+Mar 27 23:05:04.793215 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x1700000005
+Mar 27 23:05:04.793227 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1700000006
+Mar 27 23:05:04.793233 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x1700000006
+Mar 27 23:05:04.793246 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1700000007
+Mar 27 23:05:04.793252 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x1700000007
+Mar 27 23:05:04.793264 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1700000008
+Mar 27 23:05:04.793270 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x1700000008
+Mar 27 23:05:04.793283 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1700000009
+Mar 27 23:05:04.793289 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x1700000009
+Mar 27 23:05:04.793301 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x170000000a
+Mar 27 23:05:04.793307 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x170000000a
+Mar 27 23:05:04.793316 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1700000001
+Mar 27 23:05:04.793321 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x1700000001
+Mar 27 23:05:04.793342 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x170000000b
+Mar 27 23:05:04.793348 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x170000000b
+Mar 27 23:05:04.793361 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x170000000c
+Mar 27 23:05:04.793366 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x170000000c
+Mar 27 23:05:04.793375 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1700000002
+Mar 27 23:05:04.793381 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x1700000002
+Mar 27 23:05:04.793389 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1700000000
+Mar 27 23:05:04.793395 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x1700000000
+Mar 27 23:05:04.793425 router4 WARNING #syncd: :- get: SAI_INGRESS_PRIORITY_GROUP_ATTR_TAM not implemented on oid:0x1a00000000
+Mar 27 23:05:04.793440 router4 WARNING #syncd: :- get: SAI_INGRESS_PRIORITY_GROUP_ATTR_TAM not implemented on oid:0x1a00000001
+Mar 27 23:05:04.793452 router4 WARNING #syncd: :- get: SAI_INGRESS_PRIORITY_GROUP_ATTR_TAM not implemented on oid:0x1a00000002
+Mar 27 23:05:04.793465 router4 WARNING #syncd: :- get: SAI_INGRESS_PRIORITY_GROUP_ATTR_TAM not implemented on oid:0x1a00000003
+Mar 27 23:05:04.793477 router4 WARNING #syncd: :- get: SAI_INGRESS_PRIORITY_GROUP_ATTR_TAM not implemented on oid:0x1a00000004
+Mar 27 23:05:04.793489 router4 WARNING #syncd: :- get: SAI_INGRESS_PRIORITY_GROUP_ATTR_TAM not implemented on oid:0x1a00000005
+Mar 27 23:05:04.793501 router4 WARNING #syncd: :- get: SAI_INGRESS_PRIORITY_GROUP_ATTR_TAM not implemented on oid:0x1a00000006
+Mar 27 23:05:04.793513 router4 WARNING #syncd: :- get: SAI_INGRESS_PRIORITY_GROUP_ATTR_TAM not implemented on oid:0x1a00000007
+Mar 27 23:05:04.793520 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_FLOOD_STORM_CONTROL_POLICER_ID not implemented on oid:0x100000001
+Mar 27 23:05:04.793526 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_BROADCAST_STORM_CONTROL_POLICER_ID not implemented on oid:0x100000001
+Mar 27 23:05:04.793531 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_MULTICAST_STORM_CONTROL_POLICER_ID not implemented on oid:0x100000001
+Mar 27 23:05:04.793537 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_INGRESS_ACL not implemented on oid:0x100000001
+Mar 27 23:05:04.793542 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_EGRESS_ACL not implemented on oid:0x100000001
+Mar 27 23:05:04.793547 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_INGRESS_MACSEC_ACL not implemented on oid:0x100000001
+Mar 27 23:05:04.793554 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_EGRESS_MACSEC_ACL not implemented on oid:0x100000001
+Mar 27 23:05:04.793560 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_PORT_ATTR_MACSEC_PORT_LIST
+Mar 27 23:05:04.793567 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_INGRESS_MIRROR_SESSION not implemented on oid:0x100000001
+Mar 27 23:05:04.793572 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_EGRESS_MIRROR_SESSION not implemented on oid:0x100000001
+Mar 27 23:05:04.793578 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_INGRESS_SAMPLEPACKET_ENABLE not implemented on oid:0x100000001
+Mar 27 23:05:04.793583 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_EGRESS_SAMPLEPACKET_ENABLE not implemented on oid:0x100000001
+Mar 27 23:05:04.793588 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_INGRESS_SAMPLE_MIRROR_SESSION not implemented on oid:0x100000001
+Mar 27 23:05:04.793594 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_EGRESS_SAMPLE_MIRROR_SESSION not implemented on oid:0x100000001
+Mar 27 23:05:04.793599 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_POLICER_ID not implemented on oid:0x100000001
+Mar 27 23:05:04.793606 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_DOT1P_TO_TC_MAP not implemented on oid:0x100000001
+Mar 27 23:05:04.793611 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_DOT1P_TO_COLOR_MAP not implemented on oid:0x100000001
+Mar 27 23:05:04.793615 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_DSCP_TO_TC_MAP not implemented on oid:0x100000001
+Mar 27 23:05:04.793621 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_DSCP_TO_COLOR_MAP not implemented on oid:0x100000001
+Mar 27 23:05:04.793626 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_TC_TO_QUEUE_MAP not implemented on oid:0x100000001
+Mar 27 23:05:04.793631 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_TC_AND_COLOR_TO_DOT1P_MAP not implemented on oid:0x100000001
+Mar 27 23:05:04.793637 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_TC_AND_COLOR_TO_DSCP_MAP not implemented on oid:0x100000001
+Mar 27 23:05:04.793643 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_TC_TO_PRIORITY_GROUP_MAP not implemented on oid:0x100000001
+Mar 27 23:05:04.793648 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_PFC_PRIORITY_TO_PRIORITY_GROUP_MAP not implemented on oid:0x100000001
+Mar 27 23:05:04.793654 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_PFC_PRIORITY_TO_QUEUE_MAP not implemented on oid:0x100000001
+Mar 27 23:05:04.793660 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_SCHEDULER_PROFILE_ID not implemented on oid:0x100000001
+Mar 27 23:05:04.793666 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_INGRESS_BUFFER_PROFILE_LIST not implemented on oid:0x100000001
+Mar 27 23:05:04.793671 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_EGRESS_BUFFER_PROFILE_LIST not implemented on oid:0x100000001
+Mar 27 23:05:04.793677 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_EGRESS_BLOCK_PORT_LIST not implemented on oid:0x100000001
+Mar 27 23:05:04.793682 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_PORT_ATTR_PORT_POOL_LIST
+Mar 27 23:05:04.793688 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_ISOLATION_GROUP not implemented on oid:0x100000001
+Mar 27 23:05:04.793693 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_TAM_OBJECT not implemented on oid:0x100000001
+Mar 27 23:05:04.793714 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_MPLS_EXP_TO_TC_MAP not implemented on oid:0x100000001
+Mar 27 23:05:04.793720 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_MPLS_EXP_TO_COLOR_MAP not implemented on oid:0x100000001
+Mar 27 23:05:04.793725 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_TC_AND_COLOR_TO_MPLS_EXP_MAP not implemented on oid:0x100000001
+Mar 27 23:05:04.793731 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_PORT_ATTR_SYSTEM_PORT
+Mar 27 23:05:04.793736 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_DSCP_TO_FORWARDING_CLASS_MAP not implemented on oid:0x100000001
+Mar 27 23:05:04.793741 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_MPLS_EXP_TO_FORWARDING_CLASS_MAP not implemented on oid:0x100000001
+Mar 27 23:05:04.793749 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_PORT_ATTR_IPSEC_PORT
+Mar 27 23:05:04.793799 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000014
+Mar 27 23:05:04.793805 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000014
+Mar 27 23:05:04.793810 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000014
+Mar 27 23:05:04.793815 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000014
+Mar 27 23:05:04.793820 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000014
+Mar 27 23:05:04.793830 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000015
+Mar 27 23:05:04.793836 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000015
+Mar 27 23:05:04.793841 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000015
+Mar 27 23:05:04.793848 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000015
+Mar 27 23:05:04.793853 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000015
+Mar 27 23:05:04.793863 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000016
+Mar 27 23:05:04.793869 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000016
+Mar 27 23:05:04.793874 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000016
+Mar 27 23:05:04.793880 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000016
+Mar 27 23:05:04.793885 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000016
+Mar 27 23:05:04.793895 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000017
+Mar 27 23:05:04.793901 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000017
+Mar 27 23:05:04.793906 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000017
+Mar 27 23:05:04.793911 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000017
+Mar 27 23:05:04.793916 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000017
+Mar 27 23:05:04.793926 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000018
+Mar 27 23:05:04.793931 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000018
+Mar 27 23:05:04.793936 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000018
+Mar 27 23:05:04.793941 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000018
+Mar 27 23:05:04.793946 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000018
+Mar 27 23:05:04.793956 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000019
+Mar 27 23:05:04.793961 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000019
+Mar 27 23:05:04.793966 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000019
+Mar 27 23:05:04.793974 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000019
+Mar 27 23:05:04.793979 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000019
+Mar 27 23:05:04.793988 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000001a
+Mar 27 23:05:04.793994 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000001a
+Mar 27 23:05:04.793999 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000001a
+Mar 27 23:05:04.794004 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000001a
+Mar 27 23:05:04.794008 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000001a
+Mar 27 23:05:04.794018 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000001b
+Mar 27 23:05:04.794023 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000001b
+Mar 27 23:05:04.794028 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000001b
+Mar 27 23:05:04.794033 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000001b
+Mar 27 23:05:04.794038 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000001b
+Mar 27 23:05:04.794049 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000001c
+Mar 27 23:05:04.794055 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000001c
+Mar 27 23:05:04.794060 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000001c
+Mar 27 23:05:04.794065 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000001c
+Mar 27 23:05:04.794070 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000001c
+Mar 27 23:05:04.794079 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000001d
+Mar 27 23:05:04.794085 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000001d
+Mar 27 23:05:04.794090 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000001d
+Mar 27 23:05:04.794095 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000001d
+Mar 27 23:05:04.794102 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000001d
+Mar 27 23:05:04.794111 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000001e
+Mar 27 23:05:04.794117 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000001e
+Mar 27 23:05:04.794121 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000001e
+Mar 27 23:05:04.794127 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000001e
+Mar 27 23:05:04.794132 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000001e
+Mar 27 23:05:04.794145 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000001f
+Mar 27 23:05:04.794150 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000001f
+Mar 27 23:05:04.794155 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000001f
+Mar 27 23:05:04.794160 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000001f
+Mar 27 23:05:04.794166 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000001f
+Mar 27 23:05:04.794178 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000020
+Mar 27 23:05:04.794183 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000020
+Mar 27 23:05:04.794189 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000020
+Mar 27 23:05:04.794194 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000020
+Mar 27 23:05:04.794199 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000020
+Mar 27 23:05:04.794208 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000021
+Mar 27 23:05:04.794214 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000021
+Mar 27 23:05:04.794219 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000021
+Mar 27 23:05:04.794224 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000021
+Mar 27 23:05:04.794229 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000021
+Mar 27 23:05:04.794241 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000022
+Mar 27 23:05:04.794246 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000022
+Mar 27 23:05:04.794251 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000022
+Mar 27 23:05:04.794257 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000022
+Mar 27 23:05:04.794262 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000022
+Mar 27 23:05:04.794272 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000023
+Mar 27 23:05:04.794278 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000023
+Mar 27 23:05:04.794283 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000023
+Mar 27 23:05:04.794288 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000023
+Mar 27 23:05:04.794293 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000023
+Mar 27 23:05:04.794304 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000024
+Mar 27 23:05:04.794309 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000024
+Mar 27 23:05:04.794314 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000024
+Mar 27 23:05:04.794319 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000024
+Mar 27 23:05:04.794325 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000024
+Mar 27 23:05:04.794334 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000025
+Mar 27 23:05:04.794339 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000025
+Mar 27 23:05:04.794344 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000025
+Mar 27 23:05:04.794348 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000025
+Mar 27 23:05:04.794353 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000025
+Mar 27 23:05:04.794362 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000026
+Mar 27 23:05:04.794367 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000026
+Mar 27 23:05:04.794372 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000026
+Mar 27 23:05:04.794377 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000026
+Mar 27 23:05:04.794382 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000026
+Mar 27 23:05:04.794392 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000027
+Mar 27 23:05:04.794397 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000027
+Mar 27 23:05:04.794402 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000027
+Mar 27 23:05:04.794407 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000027
+Mar 27 23:05:04.794412 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000027
+Mar 27 23:05:04.794457 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1700000010
+Mar 27 23:05:04.794463 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x1700000010
+Mar 27 23:05:04.794477 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1700000011
+Mar 27 23:05:04.794482 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x1700000011
+Mar 27 23:05:04.794495 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1700000012
+Mar 27 23:05:04.794499 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x1700000012
+Mar 27 23:05:04.794512 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1700000013
+Mar 27 23:05:04.794518 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x1700000013
+Mar 27 23:05:04.794531 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1700000014
+Mar 27 23:05:04.794536 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x1700000014
+Mar 27 23:05:04.794549 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1700000015
+Mar 27 23:05:04.794555 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x1700000015
+Mar 27 23:05:04.794567 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1700000016
+Mar 27 23:05:04.794573 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x1700000016
+Mar 27 23:05:04.794586 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1700000017
+Mar 27 23:05:04.794591 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x1700000017
+Mar 27 23:05:04.794600 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x170000000e
+Mar 27 23:05:04.794605 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x170000000e
+Mar 27 23:05:04.794622 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1700000018
+Mar 27 23:05:04.794627 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x1700000018
+Mar 27 23:05:04.794639 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1700000019
+Mar 27 23:05:04.794645 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x1700000019
+Mar 27 23:05:04.794653 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x170000000f
+Mar 27 23:05:04.794659 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x170000000f
+Mar 27 23:05:04.794667 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x170000000d
+Mar 27 23:05:04.794673 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x170000000d
+Mar 27 23:05:04.794704 router4 WARNING #syncd: :- get: SAI_INGRESS_PRIORITY_GROUP_ATTR_TAM not implemented on oid:0x1a00000008
+Mar 27 23:05:04.794716 router4 WARNING #syncd: :- get: SAI_INGRESS_PRIORITY_GROUP_ATTR_TAM not implemented on oid:0x1a00000009
+Mar 27 23:05:04.794729 router4 WARNING #syncd: :- get: SAI_INGRESS_PRIORITY_GROUP_ATTR_TAM not implemented on oid:0x1a0000000a
+Mar 27 23:05:04.794741 router4 WARNING #syncd: :- get: SAI_INGRESS_PRIORITY_GROUP_ATTR_TAM not implemented on oid:0x1a0000000b
+Mar 27 23:05:04.794774 router4 WARNING #syncd: :- get: SAI_INGRESS_PRIORITY_GROUP_ATTR_TAM not implemented on oid:0x1a0000000c
+Mar 27 23:05:04.794799 router4 WARNING #syncd: :- get: SAI_INGRESS_PRIORITY_GROUP_ATTR_TAM not implemented on oid:0x1a0000000d
+Mar 27 23:05:04.794813 router4 WARNING #syncd: :- get: SAI_INGRESS_PRIORITY_GROUP_ATTR_TAM not implemented on oid:0x1a0000000e
+Mar 27 23:05:04.794827 router4 WARNING #syncd: :- get: SAI_INGRESS_PRIORITY_GROUP_ATTR_TAM not implemented on oid:0x1a0000000f
+Mar 27 23:05:04.794834 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_FLOOD_STORM_CONTROL_POLICER_ID not implemented on oid:0x100000002
+Mar 27 23:05:04.794840 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_BROADCAST_STORM_CONTROL_POLICER_ID not implemented on oid:0x100000002
+Mar 27 23:05:04.794845 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_MULTICAST_STORM_CONTROL_POLICER_ID not implemented on oid:0x100000002
+Mar 27 23:05:04.794850 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_INGRESS_ACL not implemented on oid:0x100000002
+Mar 27 23:05:04.794856 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_EGRESS_ACL not implemented on oid:0x100000002
+Mar 27 23:05:04.794861 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_INGRESS_MACSEC_ACL not implemented on oid:0x100000002
+Mar 27 23:05:04.794868 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_EGRESS_MACSEC_ACL not implemented on oid:0x100000002
+Mar 27 23:05:04.794873 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_PORT_ATTR_MACSEC_PORT_LIST
+Mar 27 23:05:04.794879 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_INGRESS_MIRROR_SESSION not implemented on oid:0x100000002
+Mar 27 23:05:04.794884 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_EGRESS_MIRROR_SESSION not implemented on oid:0x100000002
+Mar 27 23:05:04.794890 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_INGRESS_SAMPLEPACKET_ENABLE not implemented on oid:0x100000002
+Mar 27 23:05:04.794895 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_EGRESS_SAMPLEPACKET_ENABLE not implemented on oid:0x100000002
+Mar 27 23:05:04.794902 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_INGRESS_SAMPLE_MIRROR_SESSION not implemented on oid:0x100000002
+Mar 27 23:05:04.794907 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_EGRESS_SAMPLE_MIRROR_SESSION not implemented on oid:0x100000002
+Mar 27 23:05:04.794912 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_POLICER_ID not implemented on oid:0x100000002
+Mar 27 23:05:04.794917 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_DOT1P_TO_TC_MAP not implemented on oid:0x100000002
+Mar 27 23:05:04.794922 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_DOT1P_TO_COLOR_MAP not implemented on oid:0x100000002
+Mar 27 23:05:04.794927 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_DSCP_TO_TC_MAP not implemented on oid:0x100000002
+Mar 27 23:05:04.794933 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_DSCP_TO_COLOR_MAP not implemented on oid:0x100000002
+Mar 27 23:05:04.794938 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_TC_TO_QUEUE_MAP not implemented on oid:0x100000002
+Mar 27 23:05:04.794943 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_TC_AND_COLOR_TO_DOT1P_MAP not implemented on oid:0x100000002
+Mar 27 23:05:04.794948 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_TC_AND_COLOR_TO_DSCP_MAP not implemented on oid:0x100000002
+Mar 27 23:05:04.794953 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_TC_TO_PRIORITY_GROUP_MAP not implemented on oid:0x100000002
+Mar 27 23:05:04.794958 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_PFC_PRIORITY_TO_PRIORITY_GROUP_MAP not implemented on oid:0x100000002
+Mar 27 23:05:04.794964 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_PFC_PRIORITY_TO_QUEUE_MAP not implemented on oid:0x100000002
+Mar 27 23:05:04.794969 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_SCHEDULER_PROFILE_ID not implemented on oid:0x100000002
+Mar 27 23:05:04.794974 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_INGRESS_BUFFER_PROFILE_LIST not implemented on oid:0x100000002
+Mar 27 23:05:04.794979 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_EGRESS_BUFFER_PROFILE_LIST not implemented on oid:0x100000002
+Mar 27 23:05:04.794985 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_EGRESS_BLOCK_PORT_LIST not implemented on oid:0x100000002
+Mar 27 23:05:04.794990 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_PORT_ATTR_PORT_POOL_LIST
+Mar 27 23:05:04.794996 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_ISOLATION_GROUP not implemented on oid:0x100000002
+Mar 27 23:05:04.795001 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_TAM_OBJECT not implemented on oid:0x100000002
+Mar 27 23:05:04.795021 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_MPLS_EXP_TO_TC_MAP not implemented on oid:0x100000002
+Mar 27 23:05:04.795027 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_MPLS_EXP_TO_COLOR_MAP not implemented on oid:0x100000002
+Mar 27 23:05:04.795032 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_TC_AND_COLOR_TO_MPLS_EXP_MAP not implemented on oid:0x100000002
+Mar 27 23:05:04.795038 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_PORT_ATTR_SYSTEM_PORT
+Mar 27 23:05:04.795044 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_DSCP_TO_FORWARDING_CLASS_MAP not implemented on oid:0x100000002
+Mar 27 23:05:04.795049 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_MPLS_EXP_TO_FORWARDING_CLASS_MAP not implemented on oid:0x100000002
+Mar 27 23:05:04.795054 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_PORT_ATTR_IPSEC_PORT
+Mar 27 23:05:04.795095 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000028
+Mar 27 23:05:04.795101 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000028
+Mar 27 23:05:04.795108 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000028
+Mar 27 23:05:04.795114 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000028
+Mar 27 23:05:04.795119 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000028
+Mar 27 23:05:04.795130 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000029
+Mar 27 23:05:04.795136 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000029
+Mar 27 23:05:04.795141 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000029
+Mar 27 23:05:04.795146 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000029
+Mar 27 23:05:04.795152 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000029
+Mar 27 23:05:04.795163 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000002a
+Mar 27 23:05:04.795169 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000002a
+Mar 27 23:05:04.795174 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000002a
+Mar 27 23:05:04.795179 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000002a
+Mar 27 23:05:04.795185 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000002a
+Mar 27 23:05:04.795194 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000002b
+Mar 27 23:05:04.795200 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000002b
+Mar 27 23:05:04.795205 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000002b
+Mar 27 23:05:04.795211 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000002b
+Mar 27 23:05:04.795216 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000002b
+Mar 27 23:05:04.795227 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000002c
+Mar 27 23:05:04.795233 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000002c
+Mar 27 23:05:04.795238 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000002c
+Mar 27 23:05:04.795244 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000002c
+Mar 27 23:05:04.795249 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000002c
+Mar 27 23:05:04.795259 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000002d
+Mar 27 23:05:04.795265 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000002d
+Mar 27 23:05:04.795270 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000002d
+Mar 27 23:05:04.795276 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000002d
+Mar 27 23:05:04.795281 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000002d
+Mar 27 23:05:04.795291 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000002e
+Mar 27 23:05:04.795297 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000002e
+Mar 27 23:05:04.795302 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000002e
+Mar 27 23:05:04.795307 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000002e
+Mar 27 23:05:04.795312 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000002e
+Mar 27 23:05:04.795322 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000002f
+Mar 27 23:05:04.795328 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000002f
+Mar 27 23:05:04.795333 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000002f
+Mar 27 23:05:04.795338 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000002f
+Mar 27 23:05:04.795343 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000002f
+Mar 27 23:05:04.795354 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000030
+Mar 27 23:05:04.795359 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000030
+Mar 27 23:05:04.795365 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000030
+Mar 27 23:05:04.795370 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000030
+Mar 27 23:05:04.795375 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000030
+Mar 27 23:05:04.795385 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000031
+Mar 27 23:05:04.795390 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000031
+Mar 27 23:05:04.795395 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000031
+Mar 27 23:05:04.795401 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000031
+Mar 27 23:05:04.795406 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000031
+Mar 27 23:05:04.795416 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000032
+Mar 27 23:05:04.795423 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000032
+Mar 27 23:05:04.795429 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000032
+Mar 27 23:05:04.795434 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000032
+Mar 27 23:05:04.795441 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000032
+Mar 27 23:05:04.795450 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000033
+Mar 27 23:05:04.795455 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000033
+Mar 27 23:05:04.795460 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000033
+Mar 27 23:05:04.795465 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000033
+Mar 27 23:05:04.795470 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000033
+Mar 27 23:05:04.795480 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000034
+Mar 27 23:05:04.795485 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000034
+Mar 27 23:05:04.795491 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000034
+Mar 27 23:05:04.795496 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000034
+Mar 27 23:05:04.795501 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000034
+Mar 27 23:05:04.795514 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000035
+Mar 27 23:05:04.795520 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000035
+Mar 27 23:05:04.795525 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000035
+Mar 27 23:05:04.795530 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000035
+Mar 27 23:05:04.795535 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000035
+Mar 27 23:05:04.795545 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000036
+Mar 27 23:05:04.795551 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000036
+Mar 27 23:05:04.795556 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000036
+Mar 27 23:05:04.795561 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000036
+Mar 27 23:05:04.795566 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000036
+Mar 27 23:05:04.795576 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000037
+Mar 27 23:05:04.795581 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000037
+Mar 27 23:05:04.795586 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000037
+Mar 27 23:05:04.795592 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000037
+Mar 27 23:05:04.795597 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000037
+Mar 27 23:05:04.795606 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000038
+Mar 27 23:05:04.795612 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000038
+Mar 27 23:05:04.795617 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000038
+Mar 27 23:05:04.795622 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000038
+Mar 27 23:05:04.795627 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000038
+Mar 27 23:05:04.795637 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000039
+Mar 27 23:05:04.795643 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000039
+Mar 27 23:05:04.795648 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000039
+Mar 27 23:05:04.795655 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000039
+Mar 27 23:05:04.795660 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000039
+Mar 27 23:05:04.795669 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000003a
+Mar 27 23:05:04.795675 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000003a
+Mar 27 23:05:04.795680 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000003a
+Mar 27 23:05:04.795685 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000003a
+Mar 27 23:05:04.795690 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000003a
+Mar 27 23:05:04.795700 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000003b
+Mar 27 23:05:04.795706 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000003b
+Mar 27 23:05:04.795711 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000003b
+Mar 27 23:05:04.795716 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000003b
+Mar 27 23:05:04.795721 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000003b
+Mar 27 23:05:04.795768 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x170000001d
+Mar 27 23:05:04.795773 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x170000001d
+Mar 27 23:05:04.795787 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x170000001e
+Mar 27 23:05:04.795792 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x170000001e
+Mar 27 23:05:04.795805 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x170000001f
+Mar 27 23:05:04.795811 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x170000001f
+Mar 27 23:05:04.795824 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1700000020
+Mar 27 23:05:04.795829 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x1700000020
+Mar 27 23:05:04.795842 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1700000021
+Mar 27 23:05:04.795848 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x1700000021
+Mar 27 23:05:04.795861 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1700000022
+Mar 27 23:05:04.795866 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x1700000022
+Mar 27 23:05:04.795879 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1700000023
+Mar 27 23:05:04.795885 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x1700000023
+Mar 27 23:05:04.795899 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1700000024
+Mar 27 23:05:04.795904 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x1700000024
+Mar 27 23:05:04.795913 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x170000001b
+Mar 27 23:05:04.795918 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x170000001b
+Mar 27 23:05:04.795935 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1700000025
+Mar 27 23:05:04.795941 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x1700000025
+Mar 27 23:05:04.795954 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1700000026
+Mar 27 23:05:04.795959 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x1700000026
+Mar 27 23:05:04.795968 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x170000001c
+Mar 27 23:05:04.795973 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x170000001c
+Mar 27 23:05:04.795982 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x170000001a
+Mar 27 23:05:04.795987 router4 WARNING #syncd: :- get: SAI_SCHEDULER_GROUP_ATTR_PARENT_NODE not implemented on oid:0x170000001a
+Mar 27 23:05:04.796037 router4 WARNING #syncd: :- get: SAI_INGRESS_PRIORITY_GROUP_ATTR_TAM not implemented on oid:0x1a00000010
+Mar 27 23:05:04.796051 router4 WARNING #syncd: :- get: SAI_INGRESS_PRIORITY_GROUP_ATTR_TAM not implemented on oid:0x1a00000011
+Mar 27 23:05:04.796063 router4 WARNING #syncd: :- get: SAI_INGRESS_PRIORITY_GROUP_ATTR_TAM not implemented on oid:0x1a00000012
+Mar 27 23:05:04.796075 router4 WARNING #syncd: :- get: SAI_INGRESS_PRIORITY_GROUP_ATTR_TAM not implemented on oid:0x1a00000013
+Mar 27 23:05:04.796088 router4 WARNING #syncd: :- get: SAI_INGRESS_PRIORITY_GROUP_ATTR_TAM not implemented on oid:0x1a00000014
+Mar 27 23:05:04.796100 router4 WARNING #syncd: :- get: SAI_INGRESS_PRIORITY_GROUP_ATTR_TAM not implemented on oid:0x1a00000015
+Mar 27 23:05:04.796112 router4 WARNING #syncd: :- get: SAI_INGRESS_PRIORITY_GROUP_ATTR_TAM not implemented on oid:0x1a00000016
+Mar 27 23:05:04.796124 router4 WARNING #syncd: :- get: SAI_INGRESS_PRIORITY_GROUP_ATTR_TAM not implemented on oid:0x1a00000017
+Mar 27 23:05:04.796132 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_FLOOD_STORM_CONTROL_POLICER_ID not implemented on oid:0x100000003
+Mar 27 23:05:04.796138 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_BROADCAST_STORM_CONTROL_POLICER_ID not implemented on oid:0x100000003
+Mar 27 23:05:04.796143 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_MULTICAST_STORM_CONTROL_POLICER_ID not implemented on oid:0x100000003
+Mar 27 23:05:04.796149 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_INGRESS_ACL not implemented on oid:0x100000003
+Mar 27 23:05:04.796155 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_EGRESS_ACL not implemented on oid:0x100000003
+Mar 27 23:05:04.796160 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_INGRESS_MACSEC_ACL not implemented on oid:0x100000003
+Mar 27 23:05:04.796165 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_EGRESS_MACSEC_ACL not implemented on oid:0x100000003
+Mar 27 23:05:04.796171 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_PORT_ATTR_MACSEC_PORT_LIST
+Mar 27 23:05:04.796178 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_INGRESS_MIRROR_SESSION not implemented on oid:0x100000003
+Mar 27 23:05:04.796183 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_EGRESS_MIRROR_SESSION not implemented on oid:0x100000003
+Mar 27 23:05:04.796188 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_INGRESS_SAMPLEPACKET_ENABLE not implemented on oid:0x100000003
+Mar 27 23:05:04.796193 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_EGRESS_SAMPLEPACKET_ENABLE not implemented on oid:0x100000003
+Mar 27 23:05:04.796198 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_INGRESS_SAMPLE_MIRROR_SESSION not implemented on oid:0x100000003
+Mar 27 23:05:04.796203 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_EGRESS_SAMPLE_MIRROR_SESSION not implemented on oid:0x100000003
+Mar 27 23:05:04.796209 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_POLICER_ID not implemented on oid:0x100000003
+Mar 27 23:05:04.796214 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_DOT1P_TO_TC_MAP not implemented on oid:0x100000003
+Mar 27 23:05:04.796219 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_DOT1P_TO_COLOR_MAP not implemented on oid:0x100000003
+Mar 27 23:05:04.796224 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_DSCP_TO_TC_MAP not implemented on oid:0x100000003
+Mar 27 23:05:04.796229 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_DSCP_TO_COLOR_MAP not implemented on oid:0x100000003
+Mar 27 23:05:04.796234 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_TC_TO_QUEUE_MAP not implemented on oid:0x100000003
+Mar 27 23:05:04.796240 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_TC_AND_COLOR_TO_DOT1P_MAP not implemented on oid:0x100000003
+Mar 27 23:05:04.796245 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_TC_AND_COLOR_TO_DSCP_MAP not implemented on oid:0x100000003
+Mar 27 23:05:04.796250 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_TC_TO_PRIORITY_GROUP_MAP not implemented on oid:0x100000003
+Mar 27 23:05:04.796255 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_PFC_PRIORITY_TO_PRIORITY_GROUP_MAP not implemented on oid:0x100000003
+Mar 27 23:05:04.796261 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_PFC_PRIORITY_TO_QUEUE_MAP not implemented on oid:0x100000003
+Mar 27 23:05:04.796267 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_SCHEDULER_PROFILE_ID not implemented on oid:0x100000003
+Mar 27 23:05:04.796271 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_INGRESS_BUFFER_PROFILE_LIST not implemented on oid:0x100000003
+Mar 27 23:05:04.796276 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_EGRESS_BUFFER_PROFILE_LIST not implemented on oid:0x100000003
+Mar 27 23:05:04.796283 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_EGRESS_BLOCK_PORT_LIST not implemented on oid:0x100000003
+Mar 27 23:05:04.796288 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_PORT_ATTR_PORT_POOL_LIST
+Mar 27 23:05:04.796296 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_ISOLATION_GROUP not implemented on oid:0x100000003
+Mar 27 23:05:04.796301 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_TAM_OBJECT not implemented on oid:0x100000003
+Mar 27 23:05:04.796325 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_MPLS_EXP_TO_TC_MAP not implemented on oid:0x100000003
+Mar 27 23:05:04.796330 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_MPLS_EXP_TO_COLOR_MAP not implemented on oid:0x100000003
+Mar 27 23:05:04.796335 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_TC_AND_COLOR_TO_MPLS_EXP_MAP not implemented on oid:0x100000003
+Mar 27 23:05:04.796341 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_PORT_ATTR_SYSTEM_PORT
+Mar 27 23:05:04.796346 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_DSCP_TO_FORWARDING_CLASS_MAP not implemented on oid:0x100000003
+Mar 27 23:05:04.796351 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_MPLS_EXP_TO_FORWARDING_CLASS_MAP not implemented on oid:0x100000003
+Mar 27 23:05:04.796357 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_PORT_ATTR_IPSEC_PORT
+Mar 27 23:05:04.796423 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000003c
+Mar 27 23:05:04.796430 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000003c
+Mar 27 23:05:04.796435 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000003c
+Mar 27 23:05:04.796440 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000003c
+Mar 27 23:05:04.796445 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000003c
+Mar 27 23:05:04.796456 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000003d
+Mar 27 23:05:04.796461 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000003d
+Mar 27 23:05:04.796466 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000003d
+Mar 27 23:05:04.796471 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000003d
+Mar 27 23:05:04.796476 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000003d
+Mar 27 23:05:04.796486 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000003e
+Mar 27 23:05:04.796492 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000003e
+Mar 27 23:05:04.796497 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000003e
+Mar 27 23:05:04.796502 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000003e
+Mar 27 23:05:04.796507 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000003e
+Mar 27 23:05:04.796518 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000003f
+Mar 27 23:05:04.796523 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000003f
+Mar 27 23:05:04.796528 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000003f
+Mar 27 23:05:04.796533 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000003f
+Mar 27 23:05:04.796538 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000003f
+Mar 27 23:05:04.796548 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000040
+Mar 27 23:05:04.796554 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000040
+Mar 27 23:05:04.796559 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000040
+Mar 27 23:05:04.796564 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000040
+Mar 27 23:05:04.796569 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000040
+Mar 27 23:05:04.796578 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000041
+Mar 27 23:05:04.796583 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000041
+Mar 27 23:05:04.796588 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000041
+Mar 27 23:05:04.796592 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000041
+Mar 27 23:05:04.796597 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000041
+Mar 27 23:05:04.796607 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000042
+Mar 27 23:05:04.796613 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000042
+Mar 27 23:05:04.796618 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000042
+Mar 27 23:05:04.796624 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000042
+Mar 27 23:05:04.796629 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000042
+Mar 27 23:05:04.796639 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000043
+Mar 27 23:05:04.796645 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000043
+Mar 27 23:05:04.796650 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000043
+Mar 27 23:05:04.796656 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000043
+Mar 27 23:05:04.796661 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000043
+Mar 27 23:05:04.796670 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000044
+Mar 27 23:05:04.796676 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000044
+Mar 27 23:05:04.796683 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000044
+Mar 27 23:05:04.796688 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000044
+Mar 27 23:05:04.796693 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000044
+Mar 27 23:05:04.796702 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000045
+Mar 27 23:05:04.796708 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000045
+Mar 27 23:05:04.796713 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000045
+Mar 27 23:05:04.796719 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000045
+Mar 27 23:05:04.796725 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000045
+Mar 27 23:05:04.796734 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000046
+Mar 27 23:05:04.796739 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000046
+Mar 27 23:05:04.796744 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000046
+Mar 27 23:05:04.796750 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000046
+Mar 27 23:05:04.796755 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000046
+Mar 27 23:05:04.796765 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000047
+Mar 27 23:05:04.796771 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000047
+Mar 27 23:05:04.796776 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000047
+Mar 27 23:05:04.796781 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000047
+Mar 27 23:05:04.796786 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000047
+Mar 27 23:05:04.796796 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000048
+Mar 27 23:05:04.796813 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000048
+Mar 27 23:05:04.796819 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000048
+Mar 27 23:05:04.796824 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000048
+Mar 27 23:05:04.796830 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000048
+Mar 27 23:05:04.796840 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000049
+Mar 27 23:05:04.796846 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000049
+Mar 27 23:05:04.796851 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000049
+Mar 27 23:05:04.796856 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000049
+Mar 27 23:05:04.796861 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000049
+Mar 27 23:05:04.796871 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000004a
+Mar 27 23:05:04.796877 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000004a
+Mar 27 23:05:04.796883 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000004a
+Mar 27 23:05:04.796888 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000004a
+Mar 27 23:05:04.796893 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000004a
+Mar 27 23:05:04.796904 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000004b
+Mar 27 23:05:04.796909 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000004b
+Mar 27 23:05:04.796914 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000004b
+Mar 27 23:05:04.796920 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000004b
+Mar 27 23:05:04.796925 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000004b
+Mar 27 23:05:04.796935 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000004c
+Mar 27 23:05:04.796941 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000004c
+Mar 27 23:05:04.796946 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000004c
+Mar 27 23:05:04.796951 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000004c
+Mar 27 23:05:04.796956 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000004c
+Mar 27 23:05:04.796965 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000004d
+Mar 27 23:05:04.796970 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000004d
+Mar 27 23:05:04.796975 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000004d
+Mar 27 23:05:04.796981 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000004d
+Mar 27 23:05:04.796986 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000004d
+Mar 27 23:05:04.796997 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000004e
+Mar 27 23:05:04.797003 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000004e
+Mar 27 23:05:04.797009 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000004e
+Mar 27 23:05:04.797014 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000004e
+Mar 27 23:05:04.797020 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000004e
+Mar 27 23:05:04.797029 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000004f
+Mar 27 23:05:04.797035 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000004f
+Mar 27 23:05:04.797040 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000004f
+Mar 27 23:05:04.797045 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000004f
+Mar 27 23:05:04.797050 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000004f
+Mar 27 23:05:04.797061 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000050
+Mar 27 23:05:04.797067 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000050
+Mar 27 23:05:04.797072 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000050
+Mar 27 23:05:04.797077 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000050
+Mar 27 23:05:04.797082 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000050
+Mar 27 23:05:04.797093 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000051
+Mar 27 23:05:04.797098 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000051
+Mar 27 23:05:04.797103 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000051
+Mar 27 23:05:04.797109 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000051
+Mar 27 23:05:04.797115 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000051
+Mar 27 23:05:04.797125 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000052
+Mar 27 23:05:04.797131 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000052
+Mar 27 23:05:04.797137 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000052
+Mar 27 23:05:04.797142 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000052
+Mar 27 23:05:04.797147 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000052
+Mar 27 23:05:04.797157 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000053
+Mar 27 23:05:04.797163 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000053
+Mar 27 23:05:04.797169 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000053
+Mar 27 23:05:04.797174 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000053
+Mar 27 23:05:04.797180 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000053
+Mar 27 23:05:04.797193 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000054
+Mar 27 23:05:04.797199 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000054
+Mar 27 23:05:04.797204 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000054
+Mar 27 23:05:04.797209 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000054
+Mar 27 23:05:04.797214 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000054
+Mar 27 23:05:04.797224 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000055
+Mar 27 23:05:04.797230 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000055
+Mar 27 23:05:04.797235 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000055
+Mar 27 23:05:04.797240 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000055
+Mar 27 23:05:04.797246 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000055
+Mar 27 23:05:04.797256 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000056
+Mar 27 23:05:04.797262 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000056
+Mar 27 23:05:04.797267 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000056
+Mar 27 23:05:04.797272 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000056
+Mar 27 23:05:04.797277 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000056
+Mar 27 23:05:04.797287 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000057
+Mar 27 23:05:04.797293 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000057
+Mar 27 23:05:04.797298 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000057
+Mar 27 23:05:04.797304 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000057
+Mar 27 23:05:04.797310 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000057
+Mar 27 23:05:04.797324 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000058
+Mar 27 23:05:04.797330 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000058
+Mar 27 23:05:04.797335 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000058
+Mar 27 23:05:04.797340 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000058
+Mar 27 23:05:04.797346 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000058
+Mar 27 23:05:04.797354 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x1500000059
+Mar 27 23:05:04.797359 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x1500000059
+Mar 27 23:05:04.797363 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x1500000059
+Mar 27 23:05:04.797367 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x1500000059
+Mar 27 23:05:04.797371 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x1500000059
+Mar 27 23:05:04.797379 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000005a
+Mar 27 23:05:04.797386 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000005a
+Mar 27 23:05:04.797390 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000005a
+Mar 27 23:05:04.797394 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000005a
+Mar 27 23:05:04.797398 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000005a
+Mar 27 23:05:04.797406 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_PARENT_SCHEDULER_NODE not implemented on oid:0x150000005b
+Mar 27 23:05:04.797410 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_WRED_PROFILE_ID not implemented on oid:0x150000005b
+Mar 27 23:05:04.797414 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_BUFFER_PROFILE_ID not implemented on oid:0x150000005b
+Mar 27 23:05:04.797418 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_SCHEDULER_PROFILE_ID not implemented on oid:0x150000005b
+Mar 27 23:05:04.797423 router4 WARNING #syncd: :- get: SAI_QUEUE_ATTR_TAM_OBJECT not implemented on oid:0x150000005b
+Mar 27 23:05:04.797429 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_SCHEDULER_GROUP_LIST not implemented on oid:0x100000000
+Mar 27 23:05:04.797434 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_INGRESS_PRIORITY_GROUP_LIST not implemented on oid:0x100000000
+Mar 27 23:05:04.797438 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_FLOOD_STORM_CONTROL_POLICER_ID not implemented on oid:0x100000000
+Mar 27 23:05:04.797442 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_BROADCAST_STORM_CONTROL_POLICER_ID not implemented on oid:0x100000000
+Mar 27 23:05:04.797446 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_MULTICAST_STORM_CONTROL_POLICER_ID not implemented on oid:0x100000000
+Mar 27 23:05:04.797450 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_INGRESS_ACL not implemented on oid:0x100000000
+Mar 27 23:05:04.797453 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_EGRESS_ACL not implemented on oid:0x100000000
+Mar 27 23:05:04.797457 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_INGRESS_MACSEC_ACL not implemented on oid:0x100000000
+Mar 27 23:05:04.797462 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_EGRESS_MACSEC_ACL not implemented on oid:0x100000000
+Mar 27 23:05:04.797466 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_PORT_ATTR_MACSEC_PORT_LIST
+Mar 27 23:05:04.797470 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_INGRESS_MIRROR_SESSION not implemented on oid:0x100000000
+Mar 27 23:05:04.797474 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_EGRESS_MIRROR_SESSION not implemented on oid:0x100000000
+Mar 27 23:05:04.797478 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_INGRESS_SAMPLEPACKET_ENABLE not implemented on oid:0x100000000
+Mar 27 23:05:04.797482 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_EGRESS_SAMPLEPACKET_ENABLE not implemented on oid:0x100000000
+Mar 27 23:05:04.797486 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_INGRESS_SAMPLE_MIRROR_SESSION not implemented on oid:0x100000000
+Mar 27 23:05:04.797490 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_EGRESS_SAMPLE_MIRROR_SESSION not implemented on oid:0x100000000
+Mar 27 23:05:04.797494 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_POLICER_ID not implemented on oid:0x100000000
+Mar 27 23:05:04.797498 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_DOT1P_TO_TC_MAP not implemented on oid:0x100000000
+Mar 27 23:05:04.797502 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_DOT1P_TO_COLOR_MAP not implemented on oid:0x100000000
+Mar 27 23:05:04.797506 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_DSCP_TO_TC_MAP not implemented on oid:0x100000000
+Mar 27 23:05:04.797510 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_DSCP_TO_COLOR_MAP not implemented on oid:0x100000000
+Mar 27 23:05:04.797513 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_TC_TO_QUEUE_MAP not implemented on oid:0x100000000
+Mar 27 23:05:04.797518 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_TC_AND_COLOR_TO_DOT1P_MAP not implemented on oid:0x100000000
+Mar 27 23:05:04.797522 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_TC_AND_COLOR_TO_DSCP_MAP not implemented on oid:0x100000000
+Mar 27 23:05:04.797526 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_TC_TO_PRIORITY_GROUP_MAP not implemented on oid:0x100000000
+Mar 27 23:05:04.797531 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_PFC_PRIORITY_TO_PRIORITY_GROUP_MAP not implemented on oid:0x100000000
+Mar 27 23:05:04.797535 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_PFC_PRIORITY_TO_QUEUE_MAP not implemented on oid:0x100000000
+Mar 27 23:05:04.797539 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_SCHEDULER_PROFILE_ID not implemented on oid:0x100000000
+Mar 27 23:05:04.797543 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_INGRESS_BUFFER_PROFILE_LIST not implemented on oid:0x100000000
+Mar 27 23:05:04.797547 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_EGRESS_BUFFER_PROFILE_LIST not implemented on oid:0x100000000
+Mar 27 23:05:04.797551 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_EGRESS_BLOCK_PORT_LIST not implemented on oid:0x100000000
+Mar 27 23:05:04.797556 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_PORT_ATTR_PORT_POOL_LIST
+Mar 27 23:05:04.797560 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_ISOLATION_GROUP not implemented on oid:0x100000000
+Mar 27 23:05:04.797565 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_TAM_OBJECT not implemented on oid:0x100000000
+Mar 27 23:05:04.797575 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_MPLS_EXP_TO_TC_MAP not implemented on oid:0x100000000
+Mar 27 23:05:04.797579 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_MPLS_EXP_TO_COLOR_MAP not implemented on oid:0x100000000
+Mar 27 23:05:04.797583 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_TC_AND_COLOR_TO_MPLS_EXP_MAP not implemented on oid:0x100000000
+Mar 27 23:05:04.797587 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_PORT_ATTR_SYSTEM_PORT
+Mar 27 23:05:04.797591 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_DSCP_TO_FORWARDING_CLASS_MAP not implemented on oid:0x100000000
+Mar 27 23:05:04.797595 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_QOS_MPLS_EXP_TO_FORWARDING_CLASS_MAP not implemented on oid:0x100000000
+Mar 27 23:05:04.797599 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_PORT_ATTR_IPSEC_PORT
+Mar 27 23:05:04.797616 router4 NOTICE #syncd: :- refresh_vlan_member_list: recalculated SAI_VLAN_ATTR_MEMBER_LIST: 3
+Mar 27 23:05:04.797660 router4 NOTICE #syncd: :- refresh_bridge_port_list: not found SAI_BRIDGE_PORT_ATTR_BRIDGE_ID on bridge port: oid:0x3a00000000
+Mar 27 23:05:04.797666 router4 NOTICE #syncd: :- refresh_bridge_port_list: recalculated SAI_BRIDGE_ATTR_PORT_LIST: 3
+Mar 27 23:05:04.797690 router4 WARNING #syncd: :- get: SAI_BRIDGE_PORT_ATTR_ISOLATION_GROUP not implemented on oid:0x3a00000002
+Mar 27 23:05:04.797700 router4 WARNING #syncd: :- get: SAI_BRIDGE_PORT_ATTR_ISOLATION_GROUP not implemented on oid:0x3a00000003
+Mar 27 23:05:04.797705 router4 WARNING #syncd: :- get: SAI_BRIDGE_ATTR_UNKNOWN_UNICAST_FLOOD_GROUP not implemented on oid:0x3900000000
+Mar 27 23:05:04.797709 router4 WARNING #syncd: :- get: SAI_BRIDGE_ATTR_UNKNOWN_MULTICAST_FLOOD_GROUP not implemented on oid:0x3900000000
+Mar 27 23:05:04.797715 router4 WARNING #syncd: :- get: SAI_BRIDGE_ATTR_BROADCAST_FLOOD_GROUP not implemented on oid:0x3900000000
+Mar 27 23:05:04.797719 router4 WARNING #syncd: :- get: SAI_BRIDGE_PORT_ATTR_ISOLATION_GROUP not implemented on oid:0x3a00000001
+Mar 27 23:05:04.797735 router4 WARNING #syncd: :- get: SAI_VLAN_ATTR_STP_INSTANCE not implemented on oid:0x2600000000
+Mar 27 23:05:04.797740 router4 WARNING #syncd: :- get: SAI_VLAN_ATTR_UNKNOWN_NON_IP_MCAST_OUTPUT_GROUP_ID not implemented on oid:0x2600000000
+Mar 27 23:05:04.797744 router4 WARNING #syncd: :- get: SAI_VLAN_ATTR_UNKNOWN_IPV4_MCAST_OUTPUT_GROUP_ID not implemented on oid:0x2600000000
+Mar 27 23:05:04.797748 router4 WARNING #syncd: :- get: SAI_VLAN_ATTR_UNKNOWN_IPV6_MCAST_OUTPUT_GROUP_ID not implemented on oid:0x2600000000
+Mar 27 23:05:04.797753 router4 WARNING #syncd: :- get: SAI_VLAN_ATTR_UNKNOWN_LINKLOCAL_MCAST_OUTPUT_GROUP_ID not implemented on oid:0x2600000000
+Mar 27 23:05:04.797757 router4 WARNING #syncd: :- get: SAI_VLAN_ATTR_INGRESS_ACL not implemented on oid:0x2600000000
+Mar 27 23:05:04.797761 router4 WARNING #syncd: :- get: SAI_VLAN_ATTR_EGRESS_ACL not implemented on oid:0x2600000000
+Mar 27 23:05:04.797766 router4 WARNING #syncd: :- get: SAI_VLAN_ATTR_UNKNOWN_UNICAST_FLOOD_GROUP not implemented on oid:0x2600000000
+Mar 27 23:05:04.797772 router4 WARNING #syncd: :- get: SAI_VLAN_ATTR_UNKNOWN_MULTICAST_FLOOD_GROUP not implemented on oid:0x2600000000
+Mar 27 23:05:04.797776 router4 WARNING #syncd: :- get: SAI_VLAN_ATTR_BROADCAST_FLOOD_GROUP not implemented on oid:0x2600000000
+Mar 27 23:05:04.797780 router4 WARNING #syncd: :- get: SAI_VLAN_ATTR_TAM_OBJECT not implemented on oid:0x2600000000
+Mar 27 23:05:04.797789 router4 WARNING #syncd: :- discover: skipping since it causes crash: SAI_STP_ATTR_BRIDGE_ID
+Mar 27 23:05:04.797794 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_STP_ATTR_PORT_LIST
+Mar 27 23:05:04.797805 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_SWITCH_ATTR_DEFAULT_OVERRIDE_VIRTUAL_ROUTER_ID
+Mar 27 23:05:04.797813 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_INGRESS_ACL not implemented on oid:0x2100000000
+Mar 27 23:05:04.797817 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_EGRESS_ACL not implemented on oid:0x2100000000
+Mar 27 23:05:04.797826 router4 WARNING #syncd: :- get: SAI_HOSTIF_TRAP_GROUP_ATTR_POLICER not implemented on oid:0x1100000000
+Mar 27 23:05:04.797830 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_SWITCH_ATTR_ECMP_HASH
+Mar 27 23:05:04.797835 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_SWITCH_ATTR_LAG_HASH
+Mar 27 23:05:04.797839 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_ECMP_HASH_IPV4 not implemented on oid:0x2100000000
+Mar 27 23:05:04.797843 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_ECMP_HASH_IPV4_IN_IPV4 not implemented on oid:0x2100000000
+Mar 27 23:05:04.797848 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_ECMP_HASH_IPV6 not implemented on oid:0x2100000000
+Mar 27 23:05:04.797853 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_LAG_HASH_IPV4 not implemented on oid:0x2100000000
+Mar 27 23:05:04.797857 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_LAG_HASH_IPV4_IN_IPV4 not implemented on oid:0x2100000000
+Mar 27 23:05:04.797862 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_LAG_HASH_IPV6 not implemented on oid:0x2100000000
+Mar 27 23:05:04.797866 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_QOS_DOT1P_TO_TC_MAP not implemented on oid:0x2100000000
+Mar 27 23:05:04.797871 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_QOS_DOT1P_TO_COLOR_MAP not implemented on oid:0x2100000000
+Mar 27 23:05:04.797875 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_QOS_DSCP_TO_TC_MAP not implemented on oid:0x2100000000
+Mar 27 23:05:04.797880 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_QOS_DSCP_TO_COLOR_MAP not implemented on oid:0x2100000000
+Mar 27 23:05:04.797885 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_QOS_TC_TO_QUEUE_MAP not implemented on oid:0x2100000000
+Mar 27 23:05:04.797889 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_QOS_TC_AND_COLOR_TO_DOT1P_MAP not implemented on oid:0x2100000000
+Mar 27 23:05:04.797894 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_QOS_TC_AND_COLOR_TO_DSCP_MAP not implemented on oid:0x2100000000
+Mar 27 23:05:04.797899 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_TAM_OBJECT_ID not implemented on oid:0x2100000000
+Mar 27 23:05:04.797905 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_NAT_ZONE_COUNTER_OBJECT_ID not implemented on oid:0x2100000000
+Mar 27 23:05:04.797911 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_SWITCH_ATTR_PORT_CONNECTOR_LIST
+Mar 27 23:05:04.797917 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_MACSEC_OBJECT_LIST not implemented on oid:0x2100000000
+Mar 27 23:05:04.797923 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_QOS_MPLS_EXP_TO_TC_MAP not implemented on oid:0x2100000000
+Mar 27 23:05:04.797928 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_QOS_MPLS_EXP_TO_COLOR_MAP not implemented on oid:0x2100000000
+Mar 27 23:05:04.797933 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_QOS_TC_AND_COLOR_TO_MPLS_EXP_MAP not implemented on oid:0x2100000000
+Mar 27 23:05:04.797938 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_SYSTEM_PORT_LIST not implemented on oid:0x2100000000
+Mar 27 23:05:04.797943 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_FABRIC_PORT_LIST not implemented on oid:0x2100000000
+Mar 27 23:05:04.797948 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_TUNNEL_OBJECTS_LIST not implemented on oid:0x2100000000
+Mar 27 23:05:04.797952 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_PRE_INGRESS_ACL not implemented on oid:0x2100000000
+Mar 27 23:05:04.797957 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_SWITCH_ATTR_MY_MAC_LIST
+Mar 27 23:05:04.797961 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_QOS_DSCP_TO_FORWARDING_CLASS_MAP not implemented on oid:0x2100000000
+Mar 27 23:05:04.797966 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_QOS_MPLS_EXP_TO_FORWARDING_CLASS_MAP not implemented on oid:0x2100000000
+Mar 27 23:05:04.797970 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_IPSEC_OBJECT_ID not implemented on oid:0x2100000000
+Mar 27 23:05:04.797976 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_ARS_PROFILE not implemented on oid:0x2100000000
+Mar 27 23:05:04.798002 router4 NOTICE #syncd: :- discover: discover took 0.005782 sec
+Mar 27 23:05:04.798005 router4 NOTICE #syncd: :- discover: discovered objects count: 174
+Mar 27 23:05:04.798029 router4 NOTICE #syncd: :- discover: SAI_OBJECT_TYPE_PORT: 4
+Mar 27 23:05:04.798032 router4 NOTICE #syncd: :- discover: SAI_OBJECT_TYPE_VIRTUAL_ROUTER: 1
+Mar 27 23:05:04.798034 router4 NOTICE #syncd: :- discover: SAI_OBJECT_TYPE_STP: 1
+Mar 27 23:05:04.798036 router4 NOTICE #syncd: :- discover: SAI_OBJECT_TYPE_HOSTIF_TRAP_GROUP: 1
+Mar 27 23:05:04.798039 router4 NOTICE #syncd: :- discover: SAI_OBJECT_TYPE_QUEUE: 92
+Mar 27 23:05:04.798041 router4 NOTICE #syncd: :- discover: SAI_OBJECT_TYPE_SCHEDULER_GROUP: 39
+Mar 27 23:05:04.798043 router4 NOTICE #syncd: :- discover: SAI_OBJECT_TYPE_INGRESS_PRIORITY_GROUP: 24
+Mar 27 23:05:04.798045 router4 NOTICE #syncd: :- discover: SAI_OBJECT_TYPE_SWITCH: 1
+Mar 27 23:05:04.798048 router4 NOTICE #syncd: :- discover: SAI_OBJECT_TYPE_VLAN: 1
+Mar 27 23:05:04.798050 router4 NOTICE #syncd: :- discover: SAI_OBJECT_TYPE_VLAN_MEMBER: 3
+Mar 27 23:05:04.798052 router4 NOTICE #syncd: :- discover: SAI_OBJECT_TYPE_BRIDGE: 1
+Mar 27 23:05:04.798054 router4 NOTICE #syncd: :- discover: SAI_OBJECT_TYPE_BRIDGE_PORT: 3
+Mar 27 23:05:04.798056 router4 NOTICE #syncd: :- discover: SAI_OBJECT_TYPE_PORT_SERDES: 3
+Mar 27 23:05:04.798166 router4 NOTICE #syncd: :- helperSaveDiscoveredObjectsToRedis: objects in ASIC state table present: 0
+Mar 27 23:05:04.798168 router4 NOTICE #syncd: :- helperSaveDiscoveredObjectsToRedis: putting ALL discovered objects to redis
+Mar 27 23:05:04.812513 router4 NOTICE #syncd: :- helperSaveDiscoveredObjectsToRedis: save discovered objects to redis took 0.014393 sec
+Mar 27 23:05:04.812575 router4 NOTICE #syncd: :- redisSaveInternalOids: put switch internal discovered rid oid:0x100000000 to Asic View and COLDVIDS
+Mar 27 23:05:04.812641 router4 NOTICE #syncd: :- redisSaveInternalOids: put switch internal discovered rid oid:0x2600000000 to Asic View and COLDVIDS
+Mar 27 23:05:04.812702 router4 NOTICE #syncd: :- redisSaveInternalOids: put switch internal discovered rid oid:0x1000000000 to Asic View and COLDVIDS
+Mar 27 23:05:04.812763 router4 NOTICE #syncd: :- redisSaveInternalOids: put switch internal discovered rid oid:0x300000000 to Asic View and COLDVIDS
+Mar 27 23:05:04.812782 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_SWITCH_ATTR_DEFAULT_OVERRIDE_VIRTUAL_ROUTER_ID
+Mar 27 23:05:04.812785 router4 WARNING #syncd: :- helperGetSwitchAttrOid: failed to get SAI_SWITCH_ATTR_DEFAULT_OVERRIDE_VIRTUAL_ROUTER_ID: SAI_STATUS_NOT_IMPLEMENTED
+Mar 27 23:05:04.812885 router4 NOTICE #syncd: :- redisSaveInternalOids: put switch internal discovered rid oid:0x3900000000 to Asic View and COLDVIDS
+Mar 27 23:05:04.812945 router4 NOTICE #syncd: :- redisSaveInternalOids: put switch internal discovered rid oid:0x1100000000 to Asic View and COLDVIDS
+Mar 27 23:05:04.812964 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_SWITCH_ATTR_ECMP_HASH
+Mar 27 23:05:04.812966 router4 WARNING #syncd: :- helperGetSwitchAttrOid: failed to get SAI_SWITCH_ATTR_ECMP_HASH: SAI_STATUS_NOT_IMPLEMENTED
+Mar 27 23:05:04.812968 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_SWITCH_ATTR_LAG_HASH
+Mar 27 23:05:04.812970 router4 WARNING #syncd: :- helperGetSwitchAttrOid: failed to get SAI_SWITCH_ATTR_LAG_HASH: SAI_STATUS_NOT_IMPLEMENTED
+Mar 27 23:05:04.813005 router4 NOTICE #syncd: :- refresh_port_list: refreshed port list, current port number: 3, not counting cpu port
+Mar 27 23:05:04.813013 router4 NOTICE #syncd: :- refresh_port_list: refreshed port list, current port number: 3, not counting cpu port
+Mar 27 23:05:04.815197 router4 NOTICE #syncd: :- helperLoadColdVids: read 174 COLD VIDS
+Mar 27 23:05:04.815208 router4 NOTICE #syncd: :- SaiSwitch: constructor took 0.023014 sec
+Mar 27 23:05:04.815351 router4 NOTICE #orchagent: :- Switch: created switch with hwinfo = ''
+Mar 27 23:05:04.815371 router4 NOTICE #orchagent: :- main: Create a switch, id:9288674231451648
+Mar 27 23:05:04.815638 router4 NOTICE #orchagent: :- main: Get switch virtual router ID 3000000000005
+Mar 27 23:05:04.815948 router4 ERR #syncd: :- get: not found SAI_OBJECT_TYPE_ROUTER_INTERFACE:oid:0x600000000
+Mar 27 23:05:04.815951 router4 NOTICE #syncd: :- vpp_create_router_interface: Skipping router interface create for attr type 2
+Mar 27 23:05:04.816090 router4 NOTICE #orchagent: :- main: Created underlay router interface ID 60000000000ae
+Mar 27 23:05:04.817631 router4 ERR #orchagent: :- queryHashNativeHashFieldListEnumCapabilities: Failed to get attribute(SAI_HASH_ATTR_NATIVE_HASH_FIELD_LIST) enum value capabilities
+Mar 27 23:05:04.818321 router4 ERR #orchagent: :- querySwitchEcmpHashAlgorithmEnumCapabilities: Failed to get attribute(SAI_SWITCH_ATTR_ECMP_DEFAULT_HASH_ALGORITHM) enum value capabilities
+Mar 27 23:05:04.818690 router4 ERR #orchagent: :- querySwitchLagHashAlgorithmEnumCapabilities: Failed to get attribute(SAI_SWITCH_ATTR_LAG_DEFAULT_HASH_ALGORITHM) enum value capabilities
+Mar 27 23:05:04.818893 router4 NOTICE #orchagent: :- writeHashCapabilitiesToDb: Wrote hash capabilities to State DB: SWITCH_CAPABILITY|switch key
+Mar 27 23:05:04.818923 router4 NOTICE #orchagent: :- writeSwitchCapabilitiesToDb: Wrote switch capabilities to State DB: SWITCH_CAPABILITY|switch key
+Mar 27 23:05:04.819275 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_SWITCH_ATTR_MAX_NUMBER_OF_TEMP_SENSORS
+Mar 27 23:05:04.819553 router4 NOTICE #orchagent: :- querySwitchTpidCapability: port TPID capability 1
+Mar 27 23:05:04.819705 router4 NOTICE #orchagent: :- querySwitchTpidCapability: LAG TPID capability 1
+Mar 27 23:05:04.819869 router4 NOTICE #orchagent: :- querySwitchPortEgressSampleCapability: port egress Sample capability 1
+Mar 27 23:05:04.819960 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_SWITCH_ATTR_ECMP_HASH
+Mar 27 23:05:04.820035 router4 WARNING #orchagent: :- querySwitchHashDefaults: Failed to get switch ECMP hash OID
+Mar 27 23:05:04.820108 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_SWITCH_ATTR_LAG_HASH
+Mar 27 23:05:04.820181 router4 WARNING #orchagent: :- querySwitchHashDefaults: Failed to get switch LAG hash OID
+Mar 27 23:05:04.870172 router4 NOTICE #syncd: :- addPlugins: Queue Counter counters plugin 3a6159b8386c08e7285e34a85f4d2c68ad0f1168 registered
+Mar 27 23:05:04.870231 router4 NOTICE #syncd: :- addPlugins: Priority Group Counter counters plugin bcf34ae9158bb04b86095f829f890234e38613ff registered
+Mar 27 23:05:04.870329 router4 NOTICE #syncd: :- addPlugins: Port Counter counters plugin 21177aac7026a8c9b96bf4befa0b17910a87f560 registered
+Mar 27 23:05:04.870599 router4 NOTICE #orchagent: :- initializeCpuPort: Get CPU port pid:1000000000001
+Mar 27 23:05:04.870720 router4 NOTICE #syncd: :- refresh_port_list: refreshed port list, current port number: 3, not counting cpu port
+Mar 27 23:05:04.870824 router4 NOTICE #orchagent: :- initializePorts: Get 3 ports
+Mar 27 23:05:04.871289 router4 NOTICE #orchagent: :- initializePorts: Get port with lanes pid:1000000000002 lanes:25 26 27 28
+Mar 27 23:05:04.871466 router4 NOTICE #orchagent: :- initializePorts: Get port with lanes pid:1000000000003 lanes:33 34 35 36
+Mar 27 23:05:04.871649 router4 NOTICE #orchagent: :- initializePorts: Get port with lanes pid:1000000000004 lanes:29 30 31 32
+Mar 27 23:05:04.870926 router4 NOTICE #syncd: :- refresh_port_list: refreshed port list, current port number: 3, not counting cpu port
+Mar 27 23:05:04.873067 router4 WARNING #syncd: :- get: SAI_SWITCH_ATTR_NUMBER_OF_SYSTEM_PORTS not implemented on oid:0x2100000000
+Mar 27 23:05:04.873218 router4 NOTICE #syncd: :- refresh_vlan_member_list: recalculated SAI_VLAN_ATTR_MEMBER_LIST: 3
+Mar 27 23:05:04.873425 router4 NOTICE #syncd: :- vpp_remove_vlan_member: No ports found for bridge port id :oid:0x3a00000001
+Mar 27 23:05:04.873587 router4 NOTICE #syncd: :- vpp_remove_vlan_member: No ports found for bridge port id :oid:0x3a00000002
+Mar 27 23:05:04.873730 router4 NOTICE #syncd: :- vpp_remove_vlan_member: No ports found for bridge port id :oid:0x3a00000003
+Mar 27 23:05:04.873822 router4 NOTICE #orchagent: :- removeDefaultVlanMembers: Remove 3 VLAN members from default VLAN
+Mar 27 23:05:04.873907 router4 NOTICE #syncd: :- refresh_bridge_port_list: not found SAI_BRIDGE_PORT_ATTR_BRIDGE_ID on bridge port: oid:0x3a00000000
+Mar 27 23:05:04.873913 router4 NOTICE #syncd: :- refresh_bridge_port_list: recalculated SAI_BRIDGE_ATTR_PORT_LIST: 3
+Mar 27 23:05:04.874972 router4 NOTICE #orchagent: :- removeDefaultBridgePorts: Remove bridge ports from default 1Q bridge
+Mar 27 23:05:04.880170 router4 NOTICE #syncd: :- addPlugins: Rif Counter counters plugin 5f7e8b14a9d450f29760700b318672020ca52eab registered
+Mar 27 23:05:04.882031 router4 NOTICE #orchagent: :- RouteOrch: Maximum number of ECMP groups supported is 512
+Mar 27 23:05:04.903441 router4 INFO #supervisord 2024-03-27 23:05:04,903 INFO spawned: 'coppmgrd' with pid 201
+Mar 27 23:05:04.906773 router4 NOTICE #syncd: :- vpp_get_intf_name_for_prefix: IPv4 interface name with prefix ày‰yþ is eth0
+Mar 27 23:05:04.906778 router4 NOTICE #syncd: :- process_interface_loopback: hostIfName:eth0 isLoopback:0
+Mar 27 23:05:04.906945 router4 NOTICE #orchagent: :- RouteOrch: Create IPv4 default route with packet action drop
+Mar 27 23:05:04.907522 router4 NOTICE #coppmgrd: :- main: --- Starting coppmgrd ---
+Mar 27 23:05:04.908483 router4 NOTICE #syncd: :- vpp_get_intf_name_for_prefix: IPv6 interface name with prefix ày‰yþ is eth0
+Mar 27 23:05:04.908488 router4 NOTICE #syncd: :- process_interface_loopback: hostIfName:eth0 isLoopback:0
+Mar 27 23:05:04.908640 router4 NOTICE #orchagent: :- RouteOrch: Create IPv6 default route with packet action drop
+Mar 27 23:05:04.909367 router4 NOTICE #coppmgrd: :- setCoppTrapStateOk: Publish arp(ok) to state db
+Mar 27 23:05:04.909407 router4 NOTICE #coppmgrd: :- setCoppTrapStateOk: Publish bgp(ok) to state db
+Mar 27 23:05:04.909435 router4 NOTICE #coppmgrd: :- setCoppTrapStateOk: Publish dhcp_relay(ok) to state db
+Mar 27 23:05:04.909464 router4 NOTICE #coppmgrd: :- setCoppTrapStateOk: Publish ip2me(ok) to state db
+Mar 27 23:05:04.909489 router4 NOTICE #coppmgrd: :- setCoppTrapStateOk: Publish lacp(ok) to state db
+Mar 27 23:05:04.909512 router4 NOTICE #coppmgrd: :- setCoppTrapStateOk: Publish lldp(ok) to state db
+Mar 27 23:05:04.909539 router4 NOTICE #coppmgrd: :- setCoppTrapStateOk: Publish macsec(ok) to state db
+Mar 27 23:05:04.909579 router4 NOTICE #coppmgrd: :- setCoppTrapStateOk: Publish nat(ok) to state db
+Mar 27 23:05:04.909616 router4 NOTICE #coppmgrd: :- setCoppTrapStateOk: Publish udld(ok) to state db
+Mar 27 23:05:04.909754 router4 NOTICE #coppmgrd: :- setCoppGroupStateOk: Publish default(ok) to state db
+Mar 27 23:05:04.909861 router4 NOTICE #coppmgrd: :- setCoppGroupStateOk: Publish queue1_group1(ok) to state db
+Mar 27 23:05:04.909989 router4 NOTICE #coppmgrd: :- setCoppGroupStateOk: Publish queue1_group2(ok) to state db
+Mar 27 23:05:04.910097 router4 NOTICE #coppmgrd: :- setCoppGroupStateOk: Publish queue4_group1(ok) to state db
+Mar 27 23:05:04.910207 router4 NOTICE #coppmgrd: :- setCoppGroupStateOk: Publish queue4_group2(ok) to state db
+Mar 27 23:05:04.910306 router4 NOTICE #coppmgrd: :- setCoppGroupStateOk: Publish queue4_group3(ok) to state db
+Mar 27 23:05:04.910748 router4 ERR #syncd: :- get_intf_name_for_prefix: host interface for prefix not found
+Mar 27 23:05:04.910754 router4 NOTICE #syncd: :- process_interface_loopback: hostIfName: isLoopback:0
+Mar 27 23:05:04.911781 router4 ERR #syncd: :- vpp_add_del_intf_ip_addr_norif: host interface for prefix not found
+Mar 27 23:05:04.911786 router4 NOTICE #syncd: :- IpRouteAddRemove: Ignoring VPP ip route {"dest":"fe80::42:acff:fe14:1405/128","switch_id":"oid:0x2100000000","vr":"oid:0x300000000"}
+Mar 27 23:05:04.911952 router4 NOTICE #orchagent: :- addLinkLocalRouteToMe: Created link local ipv6 route  fe80::42:acff:fe14:1405/128 to cpu
+Mar 27 23:05:04.911957 router4 NOTICE #orchagent: :- RouteOrch: Created link local ipv6 route fe80::42:acff:fe14:1405/128 to cpu
+Mar 27 23:05:04.913192 router4 ERR #syncd: :- get_intf_name_for_prefix: host interface for prefix not found
+Mar 27 23:05:04.913198 router4 NOTICE #syncd: :- process_interface_loopback: hostIfName: isLoopback:0
+Mar 27 23:05:04.914181 router4 ERR #syncd: :- vpp_add_del_intf_ip_addr_norif: host interface for prefix not found
+Mar 27 23:05:04.914186 router4 NOTICE #syncd: :- IpRouteAddRemove: Ignoring VPP ip route {"dest":"fe80::/10","switch_id":"oid:0x2100000000","vr":"oid:0x300000000"}
+Mar 27 23:05:04.914317 router4 NOTICE #orchagent: :- addLinkLocalRouteToMe: Created link local ipv6 route  fe80::/10 to cpu
+Mar 27 23:05:04.914321 router4 NOTICE #orchagent: :- RouteOrch: Created link local ipv6 route fe80::/10 to cpu
+Mar 27 23:05:04.915472 router4 NOTICE #orchagent: :- initDefaultHostIntfTable: Create default host interface table
+Mar 27 23:05:04.916885 router4 NOTICE #syncd: :- addPlugins: Tunnel Counter counters plugin 5f7d853dc44d586514ba71cc8439ef1dcf4eda53 registered
+Mar 27 23:05:04.962335 router4 NOTICE #syncd: :- addPlugins: Buffer Pool Counter counters plugin 78f7658e05f9659b8ecaf00eb0214957a509e246 registered
+Mar 27 23:05:04.962456 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_SWITCH_ATTR_TOTAL_BUFFER_SIZE
+Mar 27 23:05:04.962560 router4 ERR #orchagent: :- initBufferConstants: Failed to get Maximum memory size, rv:-15
+Mar 27 23:05:04.963081 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_SWITCH_ATTR_QOS_MAX_NUMBER_OF_TRAFFIC_CLASSES
+Mar 27 23:05:04.963183 router4 WARNING #orchagent: :- MirrorOrch: Failed to get switch attribute number of traffic classes.                        Use default value. rv:-15
+Mar 27 23:05:04.967181 router4 NOTICE #orchagent: :- NatOrch: DNAT nexthop tracking is disabled
+Mar 27 23:05:05.004031 router4 NOTICE #orchagent: :- init: vs switch capability:
+Mar 27 23:05:05.004034 router4 NOTICE #orchagent: :- init:     TABLE_TYPE_MIRROR: yes
+Mar 27 23:05:05.004036 router4 NOTICE #orchagent: :- init:     TABLE_TYPE_MIRRORV6: yes
+Mar 27 23:05:05.004038 router4 NOTICE #orchagent: :- init:     TABLE_TYPE_L3V4V6: Ingress [yes], Egress [yes]
+Mar 27 23:05:05.004360 router4 NOTICE #orchagent: :- init: Get ACL entry priority values, min: 1, max: 16000
+Mar 27 23:05:05.005498 router4 WARNING #orchagent: :- queryAclActionAttrEnumValues: Failed to query enum values supported for ACL action PACKET_ACTION - API is not implemented, assuming all values are supported for this action
+Mar 27 23:05:05.005697 router4 WARNING #orchagent: :- queryAclActionAttrEnumValues: Failed to query enum values supported for ACL action FLOW_OP - API is not implemented, assuming all values are supported for this action
+Mar 27 23:05:05.005996 router4 NOTICE #syncd: :- aclTableCreate: ACL table oid:0x700000000 created
+Mar 27 23:05:05.006046 router4 NOTICE #syncd: :- aclDefaultAllowConfigure: Default Allow all ACL for table oid:0x700000000 added, status 0 swindex 0
+Mar 27 23:05:05.006236 router4 NOTICE #orchagent: :- bindAclTable: Bind table DTEL_FLOW_WATCHLIST to ports
+Mar 27 23:05:05.006239 router4 WARNING #orchagent: :- bindAclTable: Port list is empty for DTEL_FLOW_WATCHLIST table
+Mar 27 23:05:05.006244 router4 NOTICE #orchagent: :- addAclTable: Created ACL table DTEL_FLOW_WATCHLIST oid:70000000000b2
+Mar 27 23:05:05.007298 router4 WARNING #orchagent: :- parsePbhAsicVendor: Failed to detect ASIC vendor: environmental variable(ASIC_VENDOR) is not found
+Mar 27 23:05:05.007301 router4 WARNING #orchagent: :- PbhCapabilities: Failed to parse ASIC vendor: fallback to generic platform
+Mar 27 23:05:05.007305 router4 NOTICE #orchagent: :- initPbhVendorCapabilities: Initialized PBH capabilities: generic platform
+Mar 27 23:05:05.007337 router4 NOTICE #orchagent: :- writePbhEntityCapabilitiesToDb<PbhTableCapabilities>: Wrote PBH table capabilities to State DB: PBH_CAPABILITIES|table key
+Mar 27 23:05:05.007372 router4 NOTICE #orchagent: :- writePbhEntityCapabilitiesToDb<PbhRuleCapabilities>: Wrote PBH rule capabilities to State DB: PBH_CAPABILITIES|rule key
+Mar 27 23:05:05.007391 router4 NOTICE #orchagent: :- writePbhEntityCapabilitiesToDb<PbhHashCapabilities>: Wrote PBH hash capabilities to State DB: PBH_CAPABILITIES|hash key
+Mar 27 23:05:05.007412 router4 NOTICE #orchagent: :- writePbhEntityCapabilitiesToDb<PbhHashFieldCapabilities>: Wrote PBH hash field capabilities to State DB: PBH_CAPABILITIES|hash-field key
+Mar 27 23:05:05.007414 router4 NOTICE #orchagent: :- writePbhVendorCapabilitiesToDb: Wrote PBH capabilities to State DB: PBH_CAPABILITIES table
+Mar 27 23:05:05.038326 router4 NOTICE #syncd: :- addPlugins: Queue Counter counters plugin f7a41fc49322ff6ddb0955f4e3b0724c0123c735 registered
+Mar 27 23:05:05.038332 router4 NOTICE #syncd: :- addPlugins: Queue Counter counters plugin 81da146fb0bdfad1a834e5b4448fdb9de034fc5b registered
+Mar 27 23:05:05.039054 router4 NOTICE #orchagent: :- syncd_apply_view: Notify syncd APPLY_VIEW
+Mar 27 23:05:05.039062 router4 NOTICE #orchagent: :- notifySyncd: sending syncd: APPLY_VIEW
+Mar 27 23:05:05.039200 router4 NOTICE #syncd: :- processNotifySyncd: very first run is TRUE, op = APPLY_VIEW
+Mar 27 23:05:05.039203 router4 NOTICE #syncd: :- processNotifySyncd: setting very first run to FALSE, op = APPLY_VIEW
+Mar 27 23:05:05.039301 router4 NOTICE #orchagent: :- sai_redis_notify_syncd: switched ASIC to APPLY VIEW
+Mar 27 23:05:05.039772 router4 NOTICE #orchagent: :- initializePort: Initializing port alias:Ethernet0 pid:1000000000002
+Mar 27 23:05:05.042081 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_PORT_ATTR_QOS_MAXIMUM_HEADROOM_SIZE
+Mar 27 23:05:05.042258 router4 NOTICE #orchagent: :- initializePortBufferMaximumParameters: Unable to get the maximum headroom for port Ethernet0 rv:-15, ignored
+Mar 27 23:05:05.042736 router4 ERR #syncd: :- vpp_create_hostif_tap_interface: created TAP device for Ethernet0, fd: 69
+Mar 27 23:05:05.043045 router4 NOTICE #syncd: :- asyncOnLinkMsg: received RTM_NEWLINK ifname: Ethernet0, ifflags: 0x1002, ifindex: 2
+Mar 27 23:05:05.043050 router4 NOTICE #portsyncd: :- onMsg: nlmsg type:16 key:Ethernet0 admin:0 oper:0 addr:ce:f1:29:84:53:12 ifindex:2 master:0 type:tun
+Mar 27 23:05:05.043151 router4 NOTICE #portsyncd: :- onMsg: Publish Ethernet0(ok:down) to state db
+Mar 27 23:05:05.043218 router4 NOTICE #portsyncd: :- onMsg: nlmsg type:16 key:Ethernet0 admin:0 oper:0 addr:02:fe:3e:f7:10:86 ifindex:2 master:0 type:tun
+Mar 27 23:05:05.043282 router4 NOTICE #portsyncd: :- onMsg: Publish Ethernet0(ok:down) to state db
+Mar 27 23:05:05.043214 router4 NOTICE #syncd: :- asyncOnLinkMsg: received RTM_NEWLINK ifname: Ethernet0, ifflags: 0x1002, ifindex: 2
+Mar 27 23:05:05.044341 router4 NOTICE #syncd: :- asyncOnLinkMsg: received RTM_NEWLINK ifname: Ethernet0, ifflags: 0x11043, ifindex: 2
+Mar 27 23:05:05.044351 router4 NOTICE #portsyncd: :- onMsg: nlmsg type:16 key:Ethernet0 admin:1 oper:1 addr:02:fe:3e:f7:10:86 ifindex:2 master:0 type:tun
+Mar 27 23:05:05.044415 router4 NOTICE #portsyncd: :- onMsg: Publish Ethernet0(ok:up) to state db
+Mar 27 23:05:05.044436 router4 NOTICE #portsyncd: :- onMsg: nlmsg type:16 key:Ethernet0 admin:1 oper:1 addr:02:fe:3e:f7:10:86 ifindex:2 master:0 type:tun
+Mar 27 23:05:05.044493 router4 NOTICE #portsyncd: :- onMsg: Publish Ethernet0(ok:up) to state db
+Mar 27 23:05:05.044420 router4 NOTICE #syncd: :- asyncOnLinkMsg: received RTM_NEWLINK ifname: Ethernet0, ifflags: 0x11043, ifindex: 2
+Mar 27 23:05:05.045248 router4 NOTICE #syncd: :- asyncOnLinkMsg: received RTM_NEWLINK ifname: Ethernet0, ifflags: 0x1002, ifindex: 2
+Mar 27 23:05:05.045260 router4 NOTICE #portsyncd: :- onMsg: nlmsg type:16 key:Ethernet0 admin:0 oper:0 addr:02:fe:3e:f7:10:86 ifindex:2 master:0 type:tun
+Mar 27 23:05:05.045324 router4 NOTICE #portsyncd: :- onMsg: Publish Ethernet0(ok:down) to state db
+Mar 27 23:05:05.045834 router4 NOTICE #syncd: :- send_port_oper_status_notification: explicitly send SAI_SWITCH_ATTR_PORT_STATE_CHANGE_NOTIFY for port oid:0x100000001: SAI_PORT_OPER_STATUS_UP (port was UP)
+Mar 27 23:05:05.045848 router4 NOTICE #syncd: :- send_port_oper_status_notification: send event SAI_SWITCH_ATTR_PORT_STATE_CHANGE_NOTIFY for port oid:0x100000001: SAI_PORT_OPER_STATUS_UP
+Mar 27 23:05:05.045875 router4 NOTICE #syncd: :- vpp_create_hostif_tap_interface: VPP interface host-eth1(Ethernet0) oper state UP
+Mar 27 23:05:05.045875 router4 INFO #supervisord: syncd vl_api_sw_interface_event_t_handler:485: vpp cannot get interface name for sw index 4
+Mar 27 23:05:05.046102 router4 NOTICE #orchagent: :- addHostIntfs: Create host interface for port Ethernet0
+Mar 27 23:05:05.046497 router4 WARNING #syncd: :- get: SAI_PORT_ATTR_AUTO_NEG_MODE not implemented on oid:0x100000001
+Mar 27 23:05:05.046591 router4 ERR #orchagent: :- isAutoNegEnabled: Failed to get port AutoNeg status for port pid:1000000000002
+Mar 27 23:05:05.047050 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_PORT_ATTR_HOST_TX_READY_STATUS
+Mar 27 23:05:05.047136 router4 ERR #orchagent: :- initializePort: Failed to get host_tx_ready value from SAI to Port 1000000000002
+Mar 27 23:05:05.047143 router4 ERR #orchagent: :- setHostTxReady: Failed to get port object for port id 0x1000000000002
+Mar 27 23:05:05.047323 router4 NOTICE #orchagent: :- setHostIntfsOperStatus: Set operation status DOWN to host interface Ethernet0
+Mar 27 23:05:05.247622 router4 NOTICE #orchagent: :- publish: EVENT_PUBLISHED: {"sonic-events-swss:if-state":{"ifname":"Ethernet0","status":"down","timestamp":"2024-03-27T23:05:05.247579Z"}}
+Mar 27 23:05:05.247751 router4 NOTICE #orchagent: :- initPort: Initialized port Ethernet0
+Mar 27 23:05:05.247988 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_PORT_ATTR_SUPPORTED_SPEED
+Mar 27 23:05:05.248138 router4 WARNING #orchagent: :- getPortSupportedSpeeds: Unable to validate speed for port Ethernet0 id=1000000000002. Not supported by platform
+Mar 27 23:05:05.248322 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_PORT_ATTR_SUPPORTED_FEC_MODE
+Mar 27 23:05:05.248448 router4 NOTICE #orchagent: :- getPortSupportedFecModes: Unable to validate FEC mode for port id=1000000000002 due to unsupported by platform
+Mar 27 23:05:05.248456 router4 NOTICE #orchagent: :- initializePort: Initializing port alias:Ethernet1 pid:1000000000004
+Mar 27 23:05:05.251496 router4 WARNING #syncd: :- refresh_read_only: need to recalculate RO: SAI_PORT_ATTR_QOS_MAXIMUM_HEADROOM_SIZE
+Mar 27 23:05:05.251627 router4 NOTICE #orchagent: :- initializePortBufferMaximumParameters: Unable to get the maximum headroom for port Ethernet1 rv:-15, ignored
+Mar 27 23:05:05.252128 router4 ERR #syncd: :- vpp_create_hostif_tap_interface: created TAP device for Ethernet1, fd: 70
+Mar 27 23:05:05.252220 router4 NOTICE #syncd: :- ~NetMsgRegistrar: begin
+Mar 27 23:05:05.252255 router4 NOTICE #syncd: :- run: netlink msg listener ended
+Mar 27 23:05:05.252280 router4 NOTICE #syncd: :- ~NetMsgRegistrar: thread joined
+Mar 27 23:05:05.252282 router4 NOTICE #syncd: :- ~NetMsgRegistrar: end
+Mar 27 23:05:05.252312 router4 INFO #supervisord: syncd interface_get_state:2049: Unable to get sw_index for bobm0
+Mar 27 23:05:05.252328 router4 NOTICE #syncd: :- uninitialize: begin
+Mar 27 23:05:05.252330 router4 NOTICE #syncd: :- uninitialize: stopping threads
+Mar 27 23:05:05.252332 router4 NOTICE #syncd: :- stopUnittestThread: begin
+Mar 27 23:05:05.252356 router4 NOTICE #syncd: :- unittestChannelThreadProc: exit VS unittest channel thread
+Mar 27 23:05:05.252375 router4 NOTICE #syncd: :- stopUnittestThread: end
+Mar 27 23:05:05.252379 router4 NOTICE #syncd: :- stopFdbAgingThread: begin
+Mar 27 23:05:05.252398 router4 NOTICE #syncd: :- fdbAgingThreadProc: end
+Mar 27 23:05:05.252414 router4 NOTICE #syncd: :- stopFdbAgingThread: end
+Mar 27 23:05:05.252416 router4 NOTICE #syncd: :- stopEventQueueThread: begin
+Mar 27 23:05:05.252444 router4 NOTICE #syncd: :- processQueueEvent: received EVENT_TYPE_END_THREAD, will process all messages and end
+Mar 27 23:05:05.252456 router4 NOTICE #syncd: :- stopEventQueueThread: end
+Mar 27 23:05:05.252562 router4 WARNING #syncd: :- writeWarmBootFile: warm boot data is empty, is that what you want?
+Mar 27 23:05:05.252617 router4 NOTICE #syncd: :- uninitialize: end
+Mar 27 23:05:05.358201 router4 NOTICE #syncd: :- threadFunction: time span 106 ms for 'create:SAI_OBJECT_TYPE_HOSTIF:oid:0xd0000000000b4'
+Mar 27 23:05:05.908734 router4 INFO #supervisord: syncd local0 0host-eth2 2host-eth3 3host-eth1 1local0 0host-eth2 2host-eth3 3host-eth1 1local0 0host-eth2 2host-eth3 3host-eth1 1local0 0host-eth2 2host-eth3 3host-eth1 1
+Mar 27 23:05:05.909045 router4 INFO #supervisord 2024-03-27 23:05:05,908 INFO success: coppmgrd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Mar 27 23:05:05.909981 router4 INFO #supervisord: start.sh coppmgrd: started
+Mar 27 23:05:06.010138 router4 INFO #supervisord 2024-03-27 23:05:06,010 INFO exited: syncd (exit status 1; not expected)
+Mar 27 23:05:06.012979 router4 INFO #supervisord 2024-03-27 23:05:06,012 INFO spawned: 'neighsyncd' with pid 243
+Mar 27 23:05:06.018705 router4 INFO #supervisord: neighsyncd Listens to neigh messages...
+Mar 27 23:05:07.020048 router4 INFO #supervisord 2024-03-27 23:05:07,019 INFO success: neighsyncd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Mar 27 23:05:07.021028 router4 INFO #supervisord: start.sh neighsyncd: started
+Mar 27 23:05:07.174139 router4 INFO #supervisord 2024-03-27 23:05:07,173 INFO spawned: 'fdbsyncd' with pid 246
+Mar 27 23:05:07.183151 router4 NOTICE #fdbsyncd: :- setWarmStartState: fdbsyncd warm start state changed to disabled
+Mar 27 23:05:07.183165 router4 NOTICE #fdbsyncd: :- main: Listens to link and neigh messages...
+Mar 27 23:05:08.176539 router4 INFO #supervisord 2024-03-27 23:05:08,176 INFO success: fdbsyncd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Mar 27 23:05:08.177530 router4 INFO #supervisord: start.sh fdbsyncd: started
+Mar 27 23:05:08.331260 router4 INFO #supervisord 2024-03-27 23:05:08,331 INFO spawned: 'teamsyncd' with pid 249
+Mar 27 23:05:08.339043 router4 INFO #supervisord: teamsyncd Listens to teamd events...
+Mar 27 23:05:09.340429 router4 INFO #supervisord 2024-03-27 23:05:09,340 INFO success: teamsyncd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Mar 27 23:05:09.341424 router4 INFO #supervisord: start.sh teamsyncd: started
+Mar 27 23:05:09.493870 router4 INFO #supervisord 2024-03-27 23:05:09,493 INFO spawned: 'fpmsyncd' with pid 252
+Mar 27 23:05:09.501883 router4 INFO #supervisord: fpmsyncd Waiting for fpm-client connection...
+Mar 27 23:05:10.503273 router4 INFO #supervisord 2024-03-27 23:05:10,503 INFO success: fpmsyncd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Mar 27 23:05:10.504092 router4 INFO #supervisord: start.sh fpmsyncd: started
+Mar 27 23:05:10.662148 router4 INFO #supervisord 2024-03-27 23:05:10,661 INFO spawned: 'teammgrd' with pid 255
+Mar 27 23:05:10.668763 router4 NOTICE #teammgrd: :- main: --- Starting teammrgd ---
+Mar 27 23:05:11.664228 router4 INFO #supervisord 2024-03-27 23:05:11,664 INFO success: teammgrd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Mar 27 23:05:11.665073 router4 INFO #supervisord: start.sh teammgrd: started
+Mar 27 23:05:11.816652 router4 INFO #supervisord 2024-03-27 23:05:11,816 INFO spawned: 'vrfmgrd' with pid 258
+Mar 27 23:05:11.823295 router4 NOTICE #vrfmgrd: :- main: --- Starting vrfmgrd ---
+Mar 27 23:05:11.831240 router4 NOTICE #vrfmgrd: :- setWarmStartState: vrfmgrd warm start state changed to disabled
+Mar 27 23:05:11.831261 router4 NOTICE #vrfmgrd: :- main: starting main loop
+Mar 27 23:05:12.819397 router4 INFO #supervisord 2024-03-27 23:05:12,818 INFO success: vrfmgrd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Mar 27 23:05:12.819622 router4 INFO #supervisord: start.sh vrfmgrd: started
+Mar 27 23:05:12.958749 router4 INFO #supervisord 2024-03-27 23:05:12,957 INFO spawned: 'portmgrd' with pid 271
+Mar 27 23:05:12.965703 router4 NOTICE #portmgrd: :- main: --- Starting portmgrd ---
+Mar 27 23:05:12.968220 router4 NOTICE #portsyncd: :- onMsg: nlmsg type:16 key:Ethernet0 admin:0 oper:0 addr:02:fe:3e:f7:10:86 ifindex:2 master:0 type:tun
+Mar 27 23:05:12.968340 router4 NOTICE #portsyncd: :- onMsg: Publish Ethernet0(ok:down) to state db
+Mar 27 23:05:12.968438 router4 NOTICE #portmgrd: :- doTask: Configure Ethernet0 MTU to 9100
+Mar 27 23:05:12.969623 router4 NOTICE #portmgrd: :- doTask: Configure Ethernet0 admin status to down
+Mar 27 23:05:13.959801 router4 INFO #supervisord 2024-03-27 23:05:13,959 INFO success: portmgrd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Mar 27 23:05:13.960865 router4 INFO #supervisord: start.sh portmgrd: started
+Mar 27 23:05:14.119657 router4 INFO #supervisord 2024-03-27 23:05:14,118 INFO spawned: 'intfmgrd' with pid 278
+Mar 27 23:05:14.126327 router4 NOTICE #intfmgrd: :- main: --- Starting intfmgrd ---
+Mar 27 23:05:14.130266 router4 NOTICE #intfmgrd: :- setWarmStartState: intfmgrd warm start state changed to disabled
+Mar 27 23:05:14.130350 router4 NOTICE #intfmgrd: :- main: starting main loop
+Mar 27 23:05:15.121447 router4 INFO #supervisord 2024-03-27 23:05:15,120 INFO success: intfmgrd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Mar 27 23:05:15.121823 router4 INFO #supervisord: start.sh intfmgrd: started
+Mar 27 23:05:15.272277 router4 INFO #supervisord 2024-03-27 23:05:15,271 INFO spawned: 'vlanmgrd' with pid 284
+Mar 27 23:05:15.278382 router4 NOTICE #vlanmgrd: :- main: --- Starting vlanmgrd ---
+Mar 27 23:05:15.293641 router4 NOTICE #vlanmgrd: :- main: starting main loop
+Mar 27 23:05:16.273478 router4 INFO #supervisord 2024-03-27 23:05:16,272 INFO success: vlanmgrd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Mar 27 23:05:16.273743 router4 INFO #supervisord: start.sh vlanmgrd: started
+Mar 27 23:05:17.647354 router4 INFO #supervisord 2024-03-27 23:05:17,647 INFO spawned: 'zebra' with pid 303
+Mar 27 23:05:17.680769 router4 INFO #supervisord: zebra 2024/03/27 23:05:17 ZEBRA: [NNACN-54BDA][EC 4043309110] Disabling MPLS support (no kernel support)
+Mar 27 23:05:18.682830 router4 INFO #supervisord 2024-03-27 23:05:18,682 INFO success: zebra entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Mar 27 23:05:18.683033 router4 INFO #supervisord: start.sh zebra: started
+Mar 27 23:05:18.818463 router4 INFO #supervisord 2024-03-27 23:05:18,817 INFO spawned: 'bgpd' with pid 309
+Mar 27 23:05:19.819778 router4 INFO #supervisord 2024-03-27 23:05:19,819 INFO success: bgpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Mar 27 23:05:19.823517 router4 INFO #supervisord: start.sh bgpd: started
+Mar 27 23:05:19.972176 router4 INFO #supervisord 2024-03-27 23:05:19,972 INFO spawned: 'bgpcfgd' with pid 316
+Mar 27 23:05:19.972601 router4 INFO #supervisord 2024-03-27 23:05:19,972 INFO success: bgpcfgd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+Mar 27 23:05:19.975471 router4 INFO #supervisord: start.sh bgpcfgd: started
+Mar 27 23:05:20.060386 router4 INFO #supervisord: bgpcfgd /usr/local/lib/python3.9/dist-packages/bgpcfgd/managers_rm.py:89: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Mar 27 23:05:20.060394 router4 INFO #supervisord: bgpcfgd   if bgp_asn is None or bgp_asn is '':
+Mar 27 23:05:20.089468 router4 INFO #bgpcfgd: Start waiting for FRR daemons: 2024-03-27 23:05:20.089404
+Mar 27 23:05:20.089540 router4 DEBUG #bgpcfgd: execute command '['vtysh', '-c', 'show daemons']'.
+Mar 27 23:05:20.125117 router4 INFO #supervisord 2024-03-27 23:05:20,124 INFO spawned: 'bgpmon' with pid 320
+Mar 27 23:05:20.125365 router4 INFO #supervisord 2024-03-27 23:05:20,125 INFO success: bgpmon entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+Mar 27 23:05:20.126096 router4 INFO #supervisord: start.sh bgpmon: started
+Mar 27 23:05:20.126328 router4 WARNING #bgpcfgd: Can't read daemon status from FRR: 
+Mar 27 23:05:20.161405 router4 INFO #bgpmon: bgpmon service started
+Mar 27 23:05:20.226489 router4 DEBUG #bgpcfgd: execute command '['vtysh', '-c', 'show daemons']'.
+Mar 27 23:05:20.253187 router4 INFO #supervisord 2024-03-27 23:05:20,252 INFO spawned: 'staticd' with pid 323
+Mar 27 23:05:20.263218 router4 ERR #staticd[323]: [SHWNK-NWT5S][EC 100663304] Command returned Incomplete on config line 9: hostname 
+Mar 27 23:05:20.264691 router4 INFO #bgpcfgd: All required daemons have connected to vtysh: 2024-03-27 23:05:20.264669
+Mar 27 23:05:20.278988 router4 DEBUG #bgpcfgd: execute command '['vtysh', '-c', 'show bgp vrfs json']'.
+Mar 27 23:05:20.492981 router4 DEBUG #bgpcfgd: message repeated 5 times: [ execute command '['vtysh', '-c', 'show bgp vrfs json']'.]
+Mar 27 23:05:20.532262 router4 INFO #bgpcfgd: BBRMgr::Initialized and enabled. Default state: 'disabled'
+Mar 27 23:05:20.534995 router4 DEBUG #bgpcfgd: Received message : '('localhost', 'SET', (('buffer_model', 'traditional'), ('hwsku', 'Force10-S6000'), ('mac', '02:42:ac:14:14:05')))'
+Mar 27 23:05:20.685071 router4 INFO #supervisord: fpmsyncd Connected!
+Mar 27 23:05:20.685098 router4 NOTICE #fpmsyncd: :- setWarmStartState: bgp warm start state changed to disabled
+Mar 27 23:05:20.685338 router4 ERR #fpmsyncd: :- onRouteMsg: Invalid VRF name  (ifindex 254)
+Mar 27 23:05:21.686724 router4 INFO #supervisord 2024-03-27 23:05:21,686 INFO success: staticd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Mar 27 23:05:21.687546 router4 INFO #supervisord: start.sh staticd: started
+Mar 27 23:05:21.810802 router4 INFO #supervisord 2024-03-27 23:05:21,810 INFO spawned: 'buffermgrd' with pid 332
+Mar 27 23:05:21.819301 router4 NOTICE #buffermgrd: :- main: --- Starting buffermgrd ---
+Mar 27 23:05:21.821948 router4 NOTICE #buffermgrd: :- readPgProfileLookupFile: Read lookup configuration file...
+Mar 27 23:05:21.821993 router4 NOTICE #buffermgrd: :- readPgProfileLookupFile: PG profile for speed 10000 and cable 5m is: size:56368, xon:18432, xoff:55120, th:-3, xon_offset:2496
+Mar 27 23:05:21.822001 router4 NOTICE #buffermgrd: :- readPgProfileLookupFile: PG profile for speed 25000 and cable 5m is: size:56368, xon:18432, xoff:55120, th:-3, xon_offset:2496
+Mar 27 23:05:21.822006 router4 NOTICE #buffermgrd: :- readPgProfileLookupFile: PG profile for speed 40000 and cable 5m is: size:56368, xon:18432, xoff:55120, th:-3, xon_offset:2496
+Mar 27 23:05:21.822011 router4 NOTICE #buffermgrd: :- readPgProfileLookupFile: PG profile for speed 50000 and cable 5m is: size:56368, xon:18432, xoff:55120, th:-3, xon_offset:2496
+Mar 27 23:05:21.822016 router4 NOTICE #buffermgrd: :- readPgProfileLookupFile: PG profile for speed 100000 and cable 5m is: size:56368, xon:18432, xoff:55120, th:-3, xon_offset:2496
+Mar 27 23:05:21.822023 router4 NOTICE #buffermgrd: :- readPgProfileLookupFile: PG profile for speed 10000 and cable 40m is: size:56368, xon:18432, xoff:55120, th:-3, xon_offset:2496
+Mar 27 23:05:21.822028 router4 NOTICE #buffermgrd: :- readPgProfileLookupFile: PG profile for speed 25000 and cable 40m is: size:56368, xon:18432, xoff:55120, th:-3, xon_offset:2496
+Mar 27 23:05:21.822034 router4 NOTICE #buffermgrd: :- readPgProfileLookupFile: PG profile for speed 40000 and cable 40m is: size:56368, xon:18432, xoff:55120, th:-3, xon_offset:2496
+Mar 27 23:05:21.822039 router4 NOTICE #buffermgrd: :- readPgProfileLookupFile: PG profile for speed 50000 and cable 40m is: size:56368, xon:18432, xoff:55120, th:-3, xon_offset:2496
+Mar 27 23:05:21.822045 router4 NOTICE #buffermgrd: :- readPgProfileLookupFile: PG profile for speed 100000 and cable 40m is: size:56368, xon:18432, xoff:55120, th:-3, xon_offset:2496
+Mar 27 23:05:21.822050 router4 NOTICE #buffermgrd: :- readPgProfileLookupFile: PG profile for speed 10000 and cable 300m is: size:56368, xon:18432, xoff:55120, th:-3, xon_offset:2496
+Mar 27 23:05:21.822055 router4 NOTICE #buffermgrd: :- readPgProfileLookupFile: PG profile for speed 25000 and cable 300m is: size:56368, xon:18432, xoff:55120, th:-3, xon_offset:2496
+Mar 27 23:05:21.822060 router4 NOTICE #buffermgrd: :- readPgProfileLookupFile: PG profile for speed 40000 and cable 300m is: size:56368, xon:18432, xoff:55120, th:-3, xon_offset:2496
+Mar 27 23:05:21.822065 router4 NOTICE #buffermgrd: :- readPgProfileLookupFile: PG profile for speed 50000 and cable 300m is: size:56368, xon:18432, xoff:55120, th:-3, xon_offset:2496
+Mar 27 23:05:21.822073 router4 NOTICE #buffermgrd: :- readPgProfileLookupFile: PG profile for speed 100000 and cable 300m is: size:56368, xon:18432, xoff:55120, th:-3, xon_offset:2496
+Mar 27 23:05:21.822095 router4 NOTICE #buffermgrd: :- main: starting main loop
+Mar 27 23:05:21.823063 router4 NOTICE #buffermgrd: :- doSpeedUpdateTask: Not creating/updating PG profile for port Ethernet0. Cable length is set to 0m
+Mar 27 23:05:21.823069 router4 NOTICE #buffermgrd: :- doSpeedUpdateTask: Not creating/updating PG profile for port Ethernet1. Cable length is set to 0m
+Mar 27 23:05:21.823074 router4 NOTICE #buffermgrd: :- doSpeedUpdateTask: Not creating/updating PG profile for port Ethernet2. Cable length is set to 0m
+Mar 27 23:05:22.812753 router4 INFO #supervisord 2024-03-27 23:05:22,812 INFO success: buffermgrd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Mar 27 23:05:22.813546 router4 INFO #supervisord: start.sh buffermgrd: started
+Mar 27 23:05:22.950481 router4 INFO #supervisord 2024-03-27 23:05:22,950 INFO spawned: 'nbrmgrd' with pid 336
+Mar 27 23:05:22.956337 router4 NOTICE #nbrmgrd: :- main: --- Starting nbrmgrd ---
+Mar 27 23:05:22.957416 router4 NOTICE #nbrmgrd: :- main: starting main loop
+Mar 27 23:05:23.952401 router4 INFO #supervisord 2024-03-27 23:05:23,952 INFO success: nbrmgrd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Mar 27 23:05:23.953225 router4 INFO #supervisord: start.sh nbrmgrd: started
+Mar 27 23:05:24.057418 router4 INFO #supervisord 2024-03-27 23:05:24,057 INFO spawned: 'vxlanmgrd' with pid 339
+Mar 27 23:05:24.062517 router4 NOTICE #vxlanmgrd: :- main: --- Starting vxlanmgrd ---
+Mar 27 23:05:24.066527 router4 NOTICE #vxlanmgrd: :- main: starting main loop
+Mar 27 23:05:25.059342 router4 INFO #supervisord 2024-03-27 23:05:25,059 INFO success: vxlanmgrd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Mar 27 23:05:25.060252 router4 INFO #supervisord: start.sh vxlanmgrd: started
+Mar 27 23:05:25.199789 router4 INFO #supervisord 2024-03-27 23:05:25,199 INFO spawned: 'sflowmgrd' with pid 346
+Mar 27 23:05:25.205894 router4 NOTICE #sflowmgrd: :- main: --- Starting sflowmgrd ---
+Mar 27 23:05:25.207084 router4 NOTICE #sflowmgrd: :- readPortConfig: Port Configuration Read..
+Mar 27 23:05:26.201110 router4 INFO #supervisord 2024-03-27 23:05:26,200 INFO success: sflowmgrd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Mar 27 23:05:26.201967 router4 INFO #supervisord: start.sh sflowmgrd: started
+Mar 27 23:05:26.305713 router4 INFO #supervisord 2024-03-27 23:05:26,305 INFO spawned: 'natmgrd' with pid 349
+Mar 27 23:05:26.311649 router4 NOTICE #natmgrd: :- main: --- Starting natmgrd ---
+Mar 27 23:05:27.307649 router4 INFO #supervisord 2024-03-27 23:05:27,307 INFO success: natmgrd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Mar 27 23:05:27.308527 router4 INFO #supervisord: start.sh natmgrd: started
+Mar 27 23:05:27.446496 router4 INFO #supervisord 2024-03-27 23:05:27,446 INFO spawned: 'natsyncd' with pid 352
+Mar 27 23:05:28.448690 router4 INFO #supervisord 2024-03-27 23:05:28,448 INFO success: natsyncd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Mar 27 23:05:28.449756 router4 INFO #supervisord: start.sh natsyncd: started
+Mar 27 23:05:28.583210 router4 INFO #supervisord 2024-03-27 23:05:28,582 INFO spawned: 'tunnelmgrd' with pid 355
+Mar 27 23:05:28.589870 router4 NOTICE #tunnelmgrd: :- main: --- Starting Tunnelmgrd ---
+Mar 27 23:05:28.597035 router4 INFO #supervisord: tunnelmgrd delete tunnel "tun0" failed: No such device
+Mar 27 23:05:28.597181 router4 NOTICE #tunnelmgrd: :- main: starting main loop
+Mar 27 23:05:29.598553 router4 INFO #supervisord 2024-03-27 23:05:29,598 INFO success: tunnelmgrd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Mar 27 23:05:29.599327 router4 INFO #supervisord: start.sh tunnelmgrd: started
+Mar 27 23:05:29.740206 router4 INFO #supervisord 2024-03-27 23:05:29,740 INFO exited: start.sh (exit status 0; expected)
+Mar 27 23:06:05.308890 router4 ERR #orchagent: :- wait: SELECT operation result: TIMEOUT on getresponse
+Mar 27 23:06:05.308899 router4 ERR #orchagent: :- wait: failed to get response for getresponse
+Mar 27 23:06:05.308955 router4 ERR #orchagent: :- create: create status: SAI_STATUS_FAILURE
+Mar 27 23:06:05.308960 router4 ERR #orchagent: :- addHostIntfs: Failed to create host interface for port Ethernet1
+Mar 27 23:06:05.308963 router4 WARNING #orchagent: :- parseHandleSaiStatusFailure: task_process_status 4 is not expected in parseHandleSaiStatusFailure
+Mar 27 23:06:25.700674 router4 NOTICE #buffermgrd: :- doSpeedUpdateTask: Not creating/updating PG profile for port Ethernet0. Cable length is set to 0m
+Mar 27 23:06:25.710468 router4 DEBUG #bgpcfgd: Received message : '('Ethernet0', 'SET', (('NULL', 'NULL'),))'
+Mar 27 23:06:25.710553 router4 DEBUG #bgpcfgd: Received message : '('Ethernet0|192.168.14.2/24', 'SET', (('NULL', 'NULL'),))'
+Mar 27 23:06:25.725615 router4 NOTICE #buffermgrd: :- doSpeedUpdateTask: Not creating/updating PG profile for port Ethernet1. Cable length is set to 0m
+Mar 27 23:06:25.733112 router4 DEBUG #bgpcfgd: Received message : '('Ethernet2', 'SET', (('NULL', 'NULL'),))'
+Mar 27 23:06:25.737406 router4 INFO #supervisord: intfmgrd sysctl: cannot stat /proc/sys/net/mpls/conf/Ethernet0/input: No such file or directory
+Mar 27 23:06:25.742015 router4 NOTICE #portsyncd: :- onMsg: nlmsg type:16 key:Ethernet0 admin:1 oper:1 addr:02:fe:3e:f7:10:86 ifindex:2 master:0 type:tun
+Mar 27 23:06:25.760943 router4 DEBUG #bgpcfgd: Received message : '('Ethernet2|192.168.16.1/24', 'SET', (('NULL', 'NULL'),))'
+Mar 27 23:06:25.761099 router4 NOTICE #portmgrd: :- doTask: Configure Ethernet0 admin status to up
+Mar 27 23:06:25.761308 router4 NOTICE #portsyncd: :- onMsg: Publish Ethernet0(ok:up) to state db
+Mar 27 23:06:25.761415 router4 DEBUG #bgpcfgd: Received message : '('Ethernet0', 'SET', (('vrf', ''),))'
+Mar 27 23:06:25.761568 router4 DEBUG #bgpcfgd: Received message : '('Ethernet1', 'SET', (('NULL', 'NULL'),))'
+Mar 27 23:06:25.761605 router4 DEBUG #bgpcfgd: Received message : '('Ethernet1|192.168.15.2/24', 'SET', (('NULL', 'NULL'),))'
+Mar 27 23:06:25.808898 router4 DEBUG #bgpcfgd: Received message : '('Ethernet0|192.168.14.2/24', 'SET', (('state', 'ok'),))'
+Mar 27 23:06:25.856443 router4 NOTICE #buffermgrd: :- doSpeedUpdateTask: Not creating/updating PG profile for port Ethernet2. Cable length is set to 0m
+Mar 27 23:07:05.368839 router4 ERR #orchagent: :- wait: SELECT operation result: TIMEOUT on getresponse
+Mar 27 23:07:05.368844 router4 ERR #orchagent: :- wait: failed to get response for getresponse
+Mar 27 23:07:05.368897 router4 ERR #orchagent: :- getPortAdminStatus: Failed to get admin status for port pid:1000000000004
+Mar 27 23:07:05.368906 router4 ERR #orchagent: :- handleSaiGetStatus: Encountered failure in get operation, SAI API: SAI_API_PORT, status: SAI_STATUS_FAILURE
+Mar 27 23:07:05.368909 router4 ERR #orchagent: :- initializePort: Failed to get initial port admin status Ethernet1
+Mar 27 23:07:05.368912 router4 ERR #orchagent: :- initPort: Failed to initialize port Ethernet1
+Mar 27 23:07:05.368921 router4 NOTICE #orchagent: :- initializePort: Initializing port alias:Ethernet2 pid:1000000000003
+Mar 27 23:08:05.428854 router4 ERR #orchagent: :- wait: SELECT operation result: TIMEOUT on getresponse
+Mar 27 23:08:05.428862 router4 ERR #orchagent: :- wait: failed to get response for getresponse
+Mar 27 23:08:05.428926 router4 ERR #orchagent: :- initializePriorityGroups: Failed to get number of priority groups for port Ethernet2 rv:-1
+Mar 27 23:08:05.428934 router4 ERR #orchagent: :- handleSaiGetStatus: Encountered failure in get operation, SAI API: SAI_API_PORT, status: SAI_STATUS_FAILURE
+Mar 27 23:08:05.429178 router4 INFO #supervisord: orchagent terminate called after throwing an instance of 'std::runtime_error'
+Mar 27 23:08:05.429208 router4 INFO #supervisord: orchagent   what():  PortsOrch initialization failure.
+Mar 27 23:08:05.541422 router4 INFO #supervisord 2024-03-27 23:08:05,541 INFO exited: orchagent (terminated by SIGABRT (core dumped); not expected)

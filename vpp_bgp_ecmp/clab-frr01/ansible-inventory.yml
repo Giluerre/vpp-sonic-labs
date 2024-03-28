@@ -10,8 +10,12 @@ all:
         clab-frr01-PC1:
           ansible_host: 172.20.20.2
         clab-frr01-PC2:
-          ansible_host: 172.20.20.5
+          ansible_host: 172.20.20.3
         clab-frr01-router1:
           ansible_host: 172.20.20.4
         clab-frr01-router2:
-          ansible_host: 172.20.20.3
+          ansible_host: 172.20.20.7
+        clab-frr01-router3:
+          ansible_host: 172.20.20.6
+        clab-frr01-router4:
+          ansible_host: 172.20.20.5
