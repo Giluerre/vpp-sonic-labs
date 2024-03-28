@@ -2,13 +2,13 @@
 
 sudo docker exec -d clab-frr01-PC1 ip link set eth1 up
 sudo docker exec -d clab-frr01-PC1 ip addr add 192.168.11.2/24 dev eth1
-sudo docker exec -d clab-frr01-PC1 ip router add 192.168.0.0/16 via 192.168.11.1 dev eth1
-sudo docker exec -d clab-frr01-PC1 ip router add 10.10.10.0/24 via 192.168.11.1 dev eth1
+sudo docker exec -d clab-frr01-PC1 ip route add 192.168.0.0/16 via 192.168.11.1 dev eth1
+sudo docker exec -d clab-frr01-PC1 ip route add 10.10.10.0/24 via 192.168.11.1 dev eth1
 
 sudo docker exec -d clab-frr01-PC2 ip link set eth1 up
 sudo docker exec -d clab-frr01-PC2 ip addr add 192.168.16.2/24 dev eth1
-sudo docker exec -d clab-frr01-PC2 ip router add 192.168.0.0/16 via 192.168.16.1 dev eth1
-sudo docker exec -d clab-frr01-PC2 ip router add 10.10.10.0/24 via 192.168.16.1 dev eth1
+sudo docker exec -d clab-frr01-PC2 ip route add 192.168.0.0/16 via 192.168.16.1 dev eth1
+sudo docker exec -d clab-frr01-PC2 ip route add 10.10.10.0/24 via 192.168.16.1 dev eth1
 
 sudo docker exec -d clab-frr01-router1 config interface ip add Ethernet0 192.168.12.1/24
 sudo docker exec -d clab-frr01-router1 config interface ip add Ethernet1 192.168.13.1/24
